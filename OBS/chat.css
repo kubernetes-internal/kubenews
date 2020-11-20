@@ -1,0 +1,284 @@
+/**********************************************************************
+ * CSS生成日 ： 2020/11/20 22:33:52
+ * バージョン： Chat v2.0 Style Generator 日本語版 2020.05.31
+ **********************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Noto+Sans+KR&family=Noto+Sans&display=swap");
+
+/* Background colors - 背景色 */
+body {
+  overflow: hidden;
+  background-color: rgba(91,87,87,0.19);
+}
+/* Transparent background - 背景透過 */
+yt-live-chat-renderer {
+  background-color: transparent !important;
+}
+yt-live-chat-text-message-renderer,
+yt-live-chat-text-message-renderer[is-highlighted] {
+  background-color: transparent !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"],
+yt-live-chat-text-message-renderer[author-type="owner"][is-highlighted] {
+  background-color: transparent !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"],
+yt-live-chat-text-message-renderer[author-type="moderator"][is-highlighted] {
+  background-color: transparent !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="member"],
+yt-live-chat-text-message-renderer[author-type="member"][is-highlighted] {
+  background-color: transparent !important;
+}
+
+
+yt-live-chat-author-chip #author-name {
+  background-color: transparent !important;
+}
+/* Outlines - 縁取り */
+yt-live-chat-renderer * {
+  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 24px !important;
+  line-height: 26px !important;
+}
+
+yt-live-chat-text-message-renderer #content,
+yt-live-chat-legacy-paid-message-renderer #content {
+  overflow: initial !important;
+}
+
+/* Hide scrollbar - スクロールバー非表示 */
+yt-live-chat-item-list-renderer #items{
+  overflow: hidden !important;
+}
+
+yt-live-chat-item-list-renderer #item-scroller{
+  overflow: hidden !important;
+}
+
+/* Hide header and input - ヘッダーと入力欄非表示 */
+#panel-pages,
+yt-live-chat-header-renderer,
+yt-live-chat-message-input-renderer {
+  display: none !important;
+}
+
+/* Reduce side padding - 余白設定 */
+yt-live-chat-text-message-renderer {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+yt-live-chat-membership-item-renderer,
+yt-live-chat-legacy-paid-message-renderer,
+yt-live-chat-paid-sticker-renderer,
+yt-live-chat-paid-message-renderer {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+/* Avatars - チャンネルアイコン */
+yt-img-shadow #img,
+yt-live-chat-text-message-renderer #author-photo,
+yt-live-chat-paid-message-renderer #author-photo,
+yt-live-chat-membership-message-renderer #author-photo,
+yt-live-chat-legacy-paid-message-renderer #author-photo {
+  display: none !important;
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 24px !important;
+  margin-right: 6px !important;
+}
+
+/* Member Badge - モデレーター・メンバーのバッジ(アイコン)サイズ */
+img.yt-live-chat-author-badge-renderer,
+div #image,
+svg.yt-icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Emoji - 絵文字・メンバー用スタンプ */
+#message > img ,
+img.yt-live-chat-text-message-renderer {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* Hide badges - バッジ非表示. */
+yt-live-chat-text-message-renderer #author-badges,
+yt-live-chat-text-message-renderer #chat-badges {
+
+  vertical-align: text-top !important;
+}
+
+/* Timestamps - 時刻表示 */
+yt-live-chat-text-message-renderer #timestamp {
+  display: none !important;
+  color: #999999 !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  font-weight: 500 !important;
+}
+
+/* Badges - 名前・バッジの色 */
+yt-live-chat-text-message-renderer #author-name[type="owner"],
+yt-live-chat-text-message-renderer #author-name.owner,
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owner"] {
+  color: #ffd600 !important;
+}
+
+yt-live-chat-text-message-renderer #author-name[type="moderator"],
+yt-live-chat-text-message-renderer #author-name.moderator,
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="moderator"] {
+  color: #5e84f1 !important;
+}
+
+yt-live-chat-text-message-renderer #author-name[type="member"],
+yt-live-chat-text-message-renderer #author-name.member,
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] {
+  color: #0f9d58 !important;
+}
+
+/* Channel names - チャンネル名 */
+yt-live-chat-text-message-renderer #author-name {
+  color: #5e84f1 !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 700 !important;
+}
+
+/* チャンネル名を隠す */
+yt-live-chat-author-chip {
+
+}
+
+/* チャンネル名の余白削除 */
+yt-live-chat-author-chip[is-highlighted] #author-name.yt-live-chat-author-chip,
+yt-live-chat-author-chip {
+  padding: 0px 0px;
+}
+
+
+yt-live-chat-text-message-renderer #author-name::after {
+  content: ":";
+  margin-left: 2px;
+}
+
+/* Messages - チャット本文 */
+yt-live-chat-text-message-renderer #message,
+yt-live-chat-text-message-renderer #message * {
+  color: #ffffff !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 24px !important;
+  line-height: 26px !important;
+  font-weight: 600 !important;
+}
+
+yt-live-chat-text-message-renderer #message {
+  display: block !important;
+}
+
+/* SuperChat/Fan Funding Messages - スーパーチャットメッセージ */
+yt-live-chat-paid-message-renderer #author-name,
+yt-live-chat-paid-message-renderer #author-name *,
+yt-live-chat-paid-sticker-renderer #author-name,
+yt-live-chat-paid-sticker-renderer #author-name *,
+yt-live-chat-membership-item-renderer #author-name,
+yt-live-chat-membership-item-renderer #author-name *,
+yt-live-chat-legacy-paid-message-renderer #event-text,
+yt-live-chat-legacy-paid-message-renderer #event-text * {
+  color: #ffffff !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 700 !important;
+}
+
+yt-live-chat-paid-message-renderer #purchase-amount,
+yt-live-chat-paid-message-renderer #purchase-amount *,
+yt-live-chat-paid-sticker-renderer #purchase-amount-chip,
+yt-live-chat-paid-sticker-renderer #purchase-amount-chip *,
+yt-live-chat-membership-item-renderer #header-subtext,
+yt-live-chat-membership-item-renderer #header-subtext *,
+yt-live-chat-donation-announcement-renderer #text,
+yt-live-chat-donation-announcement-renderer #text *,
+yt-live-chat-legacy-paid-message-renderer #detail-text,
+yt-live-chat-legacy-paid-message-renderer #detail-text * {
+  color: #ffffff !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  font-weight: 600 !important;
+}
+
+yt-formatted-string,
+yt-live-chat-paid-message-renderer #content,
+yt-live-chat-paid-message-renderer #content *,
+yt-live-chat-membership-item-renderer #header-subtext,
+yt-live-chat-membership-item-renderer #header-subtext * {
+  color: #ffffff !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  font-weight: 600 !important;
+}
+
+yt-live-chat-paid-message-renderer,
+yt-live-chat-membership-item-renderer {
+  margin: 4px 0 !important;
+}
+
+yt-live-chat-legacy-paid-message-renderer {
+  background-color: #0f9d58 !important;
+  margin: 4px 0 !important;
+}
+
+yt-live-chat-text-message-renderer a,
+yt-live-chat-legacy-paid-message-renderer a {
+  text-decoration: none !important;
+}
+
+yt-live-chat-text-message-renderer[is-deleted],
+yt-live-chat-legacy-paid-message-renderer[is-deleted] {
+  display: none !important;
+}
+
+yt-live-chat-ticker-renderer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+yt-live-chat-ticker-renderer {
+  display: none !important;
+}
+
+
+yt-live-chat-ticker-paid-message-item-renderer,
+yt-live-chat-ticker-paid-message-item-renderer *,
+yt-live-chat-ticker-sponsor-item-renderer,
+yt-live-chat-ticker-sponsor-item-renderer * {
+  color: #ffffff !important;
+  font-family: "Kosugi Maru","Noto Sans SC","Noto Sans TC","Noto Sans KR","Noto Sans", sans-serif;
+  font-weight: 600 !important;
+}
+
+yt-live-chat-mode-change-message-renderer, 
+yt-live-chat-viewer-engagement-message-renderer, 
+yt-live-chat-server-error-message, 
+yt-live-chat-banner-manager,
+yt-live-chat-restricted-participation-renderer {
+  display: none !important;
+}
+
+/* アニメーションの設定 */
+
+
+/* チャット欄をすごく小さくした時に表示を崩れないようにする */
+
+

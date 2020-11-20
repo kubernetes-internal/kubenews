@@ -1,0 +1,608 @@
+{
+    "DesktopAudioDevice1": {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "デスクトップ音声",
+        "prev_ver": 436207618,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "versioned_id": "wasapi_output_capture",
+        "volume": 0.0
+    },
+    "current_program_scene": "シーン 2",
+    "current_scene": "シーン 2",
+    "current_transition": "フェード",
+    "groups": [],
+    "modules": {
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1041,
+            "provider": "mssapi",
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "pauseRecordTimer": true,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        },
+        "scripts-tool": []
+    },
+    "name": "kubenews",
+    "preview_locked": false,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 1,
+            "name": "カット"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 2,
+            "name": "フェード"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": true,
+            "hotkeys": [],
+            "id": 3,
+            "name": "フェード"
+        }
+    ],
+    "saved_projectors": [],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "シーン"
+        },
+        {
+            "name": "シーン 3"
+        },
+        {
+            "name": "シーン 2"
+        }
+    ],
+    "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "画像 3",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/bells/OneDrive/デスクトップ/kubenews-thumbnail.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.画像 3": [],
+                "libobs.show_scene_item.画像 3": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "シーン 3",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "画像 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "画像 2",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/bells/OneDrive/デスクトップ/kubenews15.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "ブラウザ",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "/**********************************************************************\n * CSS生成日 ： 2020/11/20 22:33:52\n * バージョン： Chat v2.0 Style Generator 日本語版 2020.05.31\n **********************************************************************/\n\n@import url(\"https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Noto+Sans+KR&family=Noto+Sans&display=swap\");\n\n/* Background colors - 背景色 */\nbody {\n  overflow: hidden;\n  background-color: rgba(91,87,87,0.19);\n}\n/* Transparent background - 背景透過 */\nyt-live-chat-renderer {\n  background-color: transparent !important;\n}\nyt-live-chat-text-message-renderer,\nyt-live-chat-text-message-renderer[is-highlighted] {\n  background-color: transparent !important;\n}\n\nyt-live-chat-text-message-renderer[author-type=\"owner\"],\nyt-live-chat-text-message-renderer[author-type=\"owner\"][is-highlighted] {\n  background-color: transparent !important;\n}\n\nyt-live-chat-text-message-renderer[author-type=\"moderator\"],\nyt-live-chat-text-message-renderer[author-type=\"moderator\"][is-highlighted] {\n  background-color: transparent !important;\n}\n\nyt-live-chat-text-message-renderer[author-type=\"member\"],\nyt-live-chat-text-message-renderer[author-type=\"member\"][is-highlighted] {\n  background-color: transparent !important;\n}\n\n\nyt-live-chat-author-chip #author-name {\n  background-color: transparent !important;\n}\n/* Outlines - 縁取り */\nyt-live-chat-renderer * {\n  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 24px !important;\n  line-height: 26px !important;\n}\n\nyt-live-chat-text-message-renderer #content,\nyt-live-chat-legacy-paid-message-renderer #content {\n  overflow: initial !important;\n}\n\n/* Hide scrollbar - スクロールバー非表示 */\nyt-live-chat-item-list-renderer #items{\n  overflow: hidden !important;\n}\n\nyt-live-chat-item-list-renderer #item-scroller{\n  overflow: hidden !important;\n}\n\n/* Hide header and input - ヘッダーと入力欄非表示 */\n#panel-pages,\nyt-live-chat-header-renderer,\nyt-live-chat-message-input-renderer {\n  display: none !important;\n}\n\n/* Reduce side padding - 余白設定 */\nyt-live-chat-text-message-renderer {\n  padding-left: 4px !important;\n  padding-right: 4px !important;\n}\n\nyt-live-chat-membership-item-renderer,\nyt-live-chat-legacy-paid-message-renderer,\nyt-live-chat-paid-sticker-renderer,\nyt-live-chat-paid-message-renderer {\n  padding-left: 4px !important;\n  padding-right: 4px !important;\n}\n\n/* Avatars - チャンネルアイコン */\nyt-img-shadow #img,\nyt-live-chat-text-message-renderer #author-photo,\nyt-live-chat-paid-message-renderer #author-photo,\nyt-live-chat-membership-message-renderer #author-photo,\nyt-live-chat-legacy-paid-message-renderer #author-photo {\n  display: none !important;\n  width: 24px !important;\n  height: 24px !important;\n  border-radius: 24px !important;\n  margin-right: 6px !important;\n}\n\n/* Member Badge - モデレーター・メンバーのバッジ(アイコン)サイズ */\nimg.yt-live-chat-author-badge-renderer,\ndiv #image,\nsvg.yt-icon {\n  width: 20px !important;\n  height: 20px !important;\n}\n\n/* Emoji - 絵文字・メンバー用スタンプ */\n#message > img ,\nimg.yt-live-chat-text-message-renderer {\n  width: 24px !important;\n  height: 24px !important;\n}\n\n/* Hide badges - バッジ非表示. */\nyt-live-chat-text-message-renderer #author-badges,\nyt-live-chat-text-message-renderer #chat-badges {\n\n  vertical-align: text-top !important;\n}\n\n/* Timestamps - 時刻表示 */\nyt-live-chat-text-message-renderer #timestamp {\n  display: none !important;\n  color: #999999 !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 16px !important;\n  line-height: 16px !important;\n  font-weight: 500 !important;\n}\n\n/* Badges - 名前・バッジの色 */\nyt-live-chat-text-message-renderer #author-name[type=\"owner\"],\nyt-live-chat-text-message-renderer #author-name.owner,\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"owner\"] {\n  color: #ffd600 !important;\n}\n\nyt-live-chat-text-message-renderer #author-name[type=\"moderator\"],\nyt-live-chat-text-message-renderer #author-name.moderator,\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"moderator\"] {\n  color: #5e84f1 !important;\n}\n\nyt-live-chat-text-message-renderer #author-name[type=\"member\"],\nyt-live-chat-text-message-renderer #author-name.member,\nyt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=\"member\"] {\n  color: #0f9d58 !important;\n}\n\n/* Channel names - チャンネル名 */\nyt-live-chat-text-message-renderer #author-name {\n  color: #5e84f1 !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 20px !important;\n  line-height: 20px !important;\n  font-weight: 700 !important;\n}\n\n/* チャンネル名を隠す */\nyt-live-chat-author-chip {\n\n}\n\n/* チャンネル名の余白削除 */\nyt-live-chat-author-chip[is-highlighted] #author-name.yt-live-chat-author-chip,\nyt-live-chat-author-chip {\n  padding: 0px 0px;\n}\n\n\nyt-live-chat-text-message-renderer #author-name::after {\n  content: \":\";\n  margin-left: 2px;\n}\n\n/* Messages - チャット本文 */\nyt-live-chat-text-message-renderer #message,\nyt-live-chat-text-message-renderer #message * {\n  color: #ffffff !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 24px !important;\n  line-height: 26px !important;\n  font-weight: 600 !important;\n}\n\nyt-live-chat-text-message-renderer #message {\n  display: block !important;\n}\n\n/* SuperChat/Fan Funding Messages - スーパーチャットメッセージ */\nyt-live-chat-paid-message-renderer #author-name,\nyt-live-chat-paid-message-renderer #author-name *,\nyt-live-chat-paid-sticker-renderer #author-name,\nyt-live-chat-paid-sticker-renderer #author-name *,\nyt-live-chat-membership-item-renderer #author-name,\nyt-live-chat-membership-item-renderer #author-name *,\nyt-live-chat-legacy-paid-message-renderer #event-text,\nyt-live-chat-legacy-paid-message-renderer #event-text * {\n  color: #ffffff !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 20px !important;\n  line-height: 20px !important;\n  font-weight: 700 !important;\n}\n\nyt-live-chat-paid-message-renderer #purchase-amount,\nyt-live-chat-paid-message-renderer #purchase-amount *,\nyt-live-chat-paid-sticker-renderer #purchase-amount-chip,\nyt-live-chat-paid-sticker-renderer #purchase-amount-chip *,\nyt-live-chat-membership-item-renderer #header-subtext,\nyt-live-chat-membership-item-renderer #header-subtext *,\nyt-live-chat-donation-announcement-renderer #text,\nyt-live-chat-donation-announcement-renderer #text *,\nyt-live-chat-legacy-paid-message-renderer #detail-text,\nyt-live-chat-legacy-paid-message-renderer #detail-text * {\n  color: #ffffff !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 18px !important;\n  line-height: 18px !important;\n  font-weight: 600 !important;\n}\n\nyt-formatted-string,\nyt-live-chat-paid-message-renderer #content,\nyt-live-chat-paid-message-renderer #content *,\nyt-live-chat-membership-item-renderer #header-subtext,\nyt-live-chat-membership-item-renderer #header-subtext * {\n  color: #ffffff !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-size: 18px !important;\n  line-height: 18px !important;\n  font-weight: 600 !important;\n}\n\nyt-live-chat-paid-message-renderer,\nyt-live-chat-membership-item-renderer {\n  margin: 4px 0 !important;\n}\n\nyt-live-chat-legacy-paid-message-renderer {\n  background-color: #0f9d58 !important;\n  margin: 4px 0 !important;\n}\n\nyt-live-chat-text-message-renderer a,\nyt-live-chat-legacy-paid-message-renderer a {\n  text-decoration: none !important;\n}\n\nyt-live-chat-text-message-renderer[is-deleted],\nyt-live-chat-legacy-paid-message-renderer[is-deleted] {\n  display: none !important;\n}\n\nyt-live-chat-ticker-renderer {\n  background-color: transparent !important;\n  box-shadow: none !important;\n}\nyt-live-chat-ticker-renderer {\n  display: none !important;\n}\n\n\nyt-live-chat-ticker-paid-message-item-renderer,\nyt-live-chat-ticker-paid-message-item-renderer *,\nyt-live-chat-ticker-sponsor-item-renderer,\nyt-live-chat-ticker-sponsor-item-renderer * {\n  color: #ffffff !important;\n  font-family: \"Kosugi Maru\",\"Noto Sans SC\",\"Noto Sans TC\",\"Noto Sans KR\",\"Noto Sans\", sans-serif;\n  font-weight: 600 !important;\n}\n\nyt-live-chat-mode-change-message-renderer, \nyt-live-chat-viewer-engagement-message-renderer, \nyt-live-chat-server-error-message, \nyt-live-chat-banner-manager,\nyt-live-chat-restricted-participation-renderer {\n  display: none !important;\n}\n\n/* アニメーションの設定 */\n\n\n/* チャット欄をすごく小さくした時に表示を崩れないようにする */\n\n\n",
+                "height": 650,
+                "url": "https://studio.youtube.com/live_chat?is_popout=1&v=ovxoGky4WMc",
+                "width": 400
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_output_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "音声出力キャプチャ",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "default"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_output_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "音声入力キャプチャ",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{6f9ad796-7fa0-4f98-b515-28ebbd10da83}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.ブラウザ": [],
+                "libobs.hide_scene_item.画像 2": [],
+                "libobs.hide_scene_item.画面キャプチャ": [],
+                "libobs.hide_scene_item.音声入力キャプチャ": [],
+                "libobs.hide_scene_item.音声出力キャプチャ": [],
+                "libobs.show_scene_item.ブラウザ": [],
+                "libobs.show_scene_item.画像 2": [],
+                "libobs.show_scene_item.画面キャプチャ": [],
+                "libobs.show_scene_item.音声入力キャプチャ": [],
+                "libobs.show_scene_item.音声出力キャプチャ": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "シーン 2",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 17,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "音声入力キャプチャ",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "音声出力キャプチャ",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "画像 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": false,
+                        "name": "画面キャプチャ",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "ブラウザ",
+                        "pos": {
+                            "x": 1497.0,
+                            "y": 393.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0575000047683716,
+                            "y": 1.0569230318069458
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "画像",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/bells/OneDrive/デスクトップ/kubenews15.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.画像": [],
+                "libobs.show_scene_item.画像": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "シーン",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "画像",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "画面キャプチャ",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "monitor": 1
+            },
+            "sync": 0,
+            "versioned_id": "monitor_capture",
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": []
+}
