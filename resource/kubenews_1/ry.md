@@ -22,8 +22,7 @@
 - [Introducing the Anthos Developer Sandbox—free with a Google account](https://cloud.google.com/blog/topics/anthos/introducing-the-anthos-developer-sandbox)
   - ついにAnthosを無料で体験することができるようになった。
   - 新規でGCP上にGKEを立てたり、既存のKubernetesを登録したりできるので、楽しめそう。
-  - 選定理由
-    - 最近よく耳にするAnthosがつい最近まで無料アカウントではさわれない状態だったので、純粋にありがたい。
+  - 最近よく耳にするAnthosがつい最近まで無料アカウントではさわれない状態だったので、純粋にありがたい。
 
 - [Unleash developer productivity with Gitpod on Oracle Container Engine for Kubernetes](https://blogs.oracle.com/cloud-infrastructure/unleash-developer-productivity-with-gitpod-on-oracle-container-engine-for-kubernetes)
   - `gitpod.io/#`をURLの最初につけるだけで起動できる。
@@ -31,7 +30,9 @@
   - .gitpod.yml にimageなどを記載することで、Workspaceをコンテナで立てることができる。
     - https://www.gitpod.io/docs/config-gitpod-file/
   - kubernetesの上で用いることで、使い捨ての開発環境をすぐに立てることができる。
+  - [Install on kubernetes](https://www.gitpod.io/docs/self-hosted/latest/install/install-on-kubernetes/)
 
 - [Container Security Book](https://container-security.dev/)
   - 前半にContainerの基礎となる部分があり、そこだけでも勉強になる。
+  - [コンテナ技術入門](https://eh-career.com/engineerhub/entry/2019/02/05/103000#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%81%A8%E3%81%AF)
   - Containerのセキュリティはいつでも課題になるので、基礎知識として良さそう。
