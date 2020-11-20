@@ -1,6 +1,6 @@
 # kubenews
 
-[#kubenews](https://twitter.com/search?q=%23kubenews)のリポジトリ
+[#kubenews](https://twitter.com/search?q=%23kubenews)のリポジトリ  
 ネタ帳とかその他管理用
 
 Youtube playlist: https://www.youtube.com/playlist?list=PL9CsU1X5GYXrB1Clp2c-CbVJnWTnikaMg
