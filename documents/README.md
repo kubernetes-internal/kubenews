@@ -36,6 +36,7 @@
 画面構成/配信ツール | OBS | 配信用の画面構成+Youtube Liveへの配信
 MTGツール | Zoom | 画面+カメラ+音声共有
 SNS | Twitter | #kubenews ハッシュタグ付きで感想など
+雑談ネタ置き場+α | Github | 雑談ネタ置き場+α
 
 ## 配信周りの機器構成
 
