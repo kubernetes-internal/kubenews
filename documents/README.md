@@ -23,7 +23,7 @@
 ## 雑談ネタの準備
 
 - 基本配信の2日前までにネタを用意
-- ネタは3人×1人3~4個用意=合計9~12くらいで収まるように調整
+- ネタは3人×1人3 ~ 4個用意=合計9~12くらいで収まるように調整
 - ネタは https://github.com/kubernetes-internal/kubenews/brob/main/episodes/XXX/README.md にまとめる形で用意する
 - それで被りとかあれば前日~配信前までに調整
 
@@ -60,8 +60,6 @@ Google Drawing: https://docs.google.com/drawings/d/1evvAtWzqhbcgnoeR16KrIy2iZjIO
 このOBS設定については  
 https://github.com/kubernetes-internal/kubenews/tree/main/OBS
 においてある
-
-![](https://github.com/kubernetes-internal/kubenews/blob/main/documents/streaming-overview.png)
 
 YouTube LiveについてはOBSのブラウザ機能を使って表示しており  
 http://css4obs.starfree.jp/  
