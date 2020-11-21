@@ -87,3 +87,29 @@ _ | 良ければ高評価、チャンネル登録お願いします
 _ | 締めの挨拶
 
 
+## Youtube Live設定
+
+### 配信の説明欄
+
+```
+#kubenews
+https://twitter.com/search?q=%23kubenews
+
+Today's Topic
+https://github.com/kubernetes-internal/kubenews/tree/main/episodes/001-private
+
+この配信では
+・@ry(https://twitter.com/URyo_0213)
+・@chago(https://twitter.com/it__chago)
+・@bells17(https://twitter.com/bells17_)
+が中心となってKubernetesやCloud Native界隈で気になったニュースや記事について、雑談をしながら取り上げていきます。
+
+・紹介する記事については紹介者が気になった記事を中心に取り上げるので、最新のニュースかどうかに関わらず様々な記事をピックアップしていく予定です
+・事前に調べて面白かったから取り上げる記事もあれば、ちょっと気になったので他の配信メンバー/視聴者と一緒に詳しく読んでいきたいという記事も取り上げます
+・そのため記事の理解については正しくない内容が含まれることがあります
+・取り扱ってる記事やニュースについて詳しい人はライブチャットなどで教えて下さい！
+
+またこれまでに配信で取り上げたネタについては
+https://github.com/kubernetes-internal/kubenews
+にありますので興味ある方いれば御覧ください
+```
