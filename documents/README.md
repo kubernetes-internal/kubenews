@@ -95,7 +95,7 @@ _ | 締めの挨拶
 https://twitter.com/search?q=%23kubenews
 
 Today's Topic
-https://github.com/kubernetes-internal/kubenews/tree/main/episodes/001-private
+https://github.com/kubernetes-internal/kubenews/tree/main/episodes/001
 
 この配信では
 ・@ry(https://twitter.com/URyo_0213)
@@ -108,7 +108,11 @@ https://github.com/kubernetes-internal/kubenews/tree/main/episodes/001-private
 ・そのため記事の理解については正しくない内容が含まれることがあります
 ・取り扱ってる記事やニュースについて詳しい人はライブチャットなどで教えて下さい！
 
+配信中はYoutube Liveのチャットでコメント頂けると配信メンバーが反応できるかもしれません
+感想などはTwitterで #kubenews ハッシュタグをつけて頂けると後から見れるので助かります
+https://twitter.com/search?q=%23kubenews
+
 またこれまでに配信で取り上げたネタについては
-https://github.com/kubernetes-internal/kubenews
+https://github.com/kubernetes-internal/kubenews/tree/main/episodes
 にありますので興味ある方いれば御覧ください
 ```
