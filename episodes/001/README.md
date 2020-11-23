@@ -1,11 +1,13 @@
-# 002-private
+# 001
 
 - Hosted by @chago
 - Recording date: 2020-11-27
-- Video: privte
+- Video: --
 
 ## Contents
 
 ### @ryojsb
 
 ### @chago
+
+### @bells17
