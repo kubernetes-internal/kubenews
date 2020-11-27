@@ -29,4 +29,16 @@
 
 ### @chago
 
+- [Diamanti Extends Kubernetes Stateful Storage Reach and Support for AWS](https://thenewstack.io/diamanti-extends-kubernetes-stateful-storage-reach-and-support-for-aws/)
+  - Diamantiはコンテナ版HCI
+  - ハイブリッドクラウドに対応するため「spektra」をリリース
+    - 最初にAzureをサポートし、今回新たにAWSサポート発表
+    - 2021年初頭にはGCPも対応予定
+
+- [How to set up k0s Kubernetes: A quick and dirty guide](https://www.mirantis.com/blog/how-to-set-up-k0s-kubernetes-a-quick-and-dirty-guide/)
+  - MIRANTIS社
+    - Docker Enterpriseを買収したことで話題に
+  - (参考)[早速K0sを試してみた(日本情報通信株式会社)](https://www.niandc.co.jp/sol/tech/date20201124_1935.php)
+    - minikubeと違いvirtualboxやKVMが不要
+
 ### @bells17
