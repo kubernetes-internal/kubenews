@@ -42,3 +42,23 @@
     - minikubeと違いvirtualboxやKVMが不要
 
 ### @bells17
+
+#### [おうち Kubernetes のための Auth0 コトハジメ](https://atpons.hateblo.jp/entry/20201122/1606014048)
+
+- https://github.com/int128/kubelogin というkubectlプラグインを使ってAuth0の認証をKubernetesクラスターに組み込むという内容
+- Kubernetesの認証方法については理解が浅い & どこからとっついて行けばよいかピンと来てないのでかなり面白かったし、勉強になった
+- Kubernetesの認証の理解を深めるきっかけにしたいので今度試してみたいな
+
+#### [Nomad, Kubernetes, and a Pragmatic Look at Choosing Orchestrators](https://www.hashicorp.com/blog/nomad-kubernetes-a-pragmatic-look-at-choosing-orchestrators)
+
+- Nomadはhashicorp社が開発しているコンテナオーケストレーターの1つ
+- この記事ではhashicorpの視点でNomadとKubernetesの比較やどんなユースケースにNomadが適しているかなどを説明してくれている
+- またここ2年でNomadを導入する企業も増えているとのこと
+- Nomadはgetting startedくらいしか試した記憶がないので、いつかアーキテクチャなど含めて勉強してみたい
+
+#### [LitmusChaos and Argo Bring Chaos Workflows to Kubernetes](https://thenewstack.io/litmuschaos-and-argo-bring-chaos-workflows-to-kubernetes/)
+
+- LitmusChaosというKubernetesを利用したカオスエンジニアリングツールとArgoというワークフローエンジンを利用したカオスエンジニアリングについて先日のKubeConでお話されてた内容をまとめたものっぽい
+- LitmusChaosを使うとPodを削除したりなど色んなカオスエンジニアリングを実現できるテンプレートが揃っている
+- こういうカオスエンジニアリングをCIのテストに組み込んでいくのもできるのかもなーと思った
+
