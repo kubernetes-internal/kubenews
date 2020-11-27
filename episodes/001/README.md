@@ -2,7 +2,7 @@
 
 - Hosted by @chago
 - Recording date: 2020-11-27
-- Video: --
+- Video: https://youtu.be/DXDF3TOJ7l0
 
 ## Contents
 
