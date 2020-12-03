@@ -10,7 +10,8 @@
 
 ### [Kubernets 1.20における新機能は？](https://www.linkedin.com/pulse/kubernets-120%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AF-takao-shimizu/)
 
-### https://hackmd.io/@XYdYH0X5SYC3DUYFF5Wylg/HJzPBurow
+
+### [Contributor Celebration](https://www.kubernetes.dev/events/kcc2020/)
 
 ### @ryojsb
 
