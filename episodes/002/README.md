@@ -13,6 +13,8 @@
 
 ### [Contributor Celebration](https://www.kubernetes.dev/events/kcc2020/)
 
+- https://techfeed.io/comments/5fc8ebcc0fda6392772020ef
+
 ### [Kubernetes: kube-scheduler をソースコードレベルで理解する](https://ccvanishing.hateblo.jp/entry/2020/12/02/181155)
 
 - https://techfeed.io/comments/5fc8ee2d0fda639277202140
