@@ -19,6 +19,10 @@
 
 - https://techfeed.io/comments/5fc8ee2d0fda639277202140
 
+### [Prometheus Adapterを利用したPodのオートスケール](https://qiita.com/Ladicle/items/5ff251b89df2f1ebb821)
+
+- https://techfeed.io/comments/5fc8f5120fda63927720223f
+
 ### @ryojsb
 
 - [AWS、オンプレミス向けコンテナ基盤ソフトウェア「Amazon ECS Anywhere」「Amazon EKS Anywhere」発表](https://www.publickey1.jp/blog/20/awsamazon_ecs_anywhereamazon_eks_anywhereaws_reinvent_2021.html)
