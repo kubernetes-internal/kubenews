@@ -13,6 +13,10 @@
 
 ### [Contributor Celebration](https://www.kubernetes.dev/events/kcc2020/)
 
+### [Kubernetes: kube-scheduler をソースコードレベルで理解する](https://ccvanishing.hateblo.jp/entry/2020/12/02/181155)
+
+- https://techfeed.io/comments/5fc8ee2d0fda639277202140
+
 ### @ryojsb
 
 - [AWS、オンプレミス向けコンテナ基盤ソフトウェア「Amazon ECS Anywhere」「Amazon EKS Anywhere」発表](https://www.publickey1.jp/blog/20/awsamazon_ecs_anywhereamazon_eks_anywhereaws_reinvent_2021.html)
