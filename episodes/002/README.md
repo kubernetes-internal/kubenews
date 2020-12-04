@@ -34,3 +34,8 @@
 - [1.20からDockerが非推奨になる理由](https://blog.inductor.me/entry/2020/12/03/061329)
 
 ### @chago
+
+- Docker malware is now common, so devs need to take Docker security seriously
+  - https://www.zdnet.com/article/docker-malware-is-now-common-so-devs-need-to-take-docker-security-seriously/
+- Amazon EKS Distro: Amazon EKS で使用される Kubernetes ディストリビューション
+  - https://aws.amazon.com/jp/blogs/news/amazon-eks-distro-the-kubernetes-distribution-used-by-amazon-eks/
