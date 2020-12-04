@@ -24,6 +24,10 @@
 
 - https://techfeed.io/comments/5fc8f5120fda63927720223f
 
+### [Google Open Source Live presents Kubernetes](https://opensourcelive.withgoogle.com/events/kubernetes?talk=opening)
+
+- https://techfeed.io/comments/5fc9e982b7b334fa4d4adb20
+
 ### @ryojsb
 
 - [AWS、オンプレミス向けコンテナ基盤ソフトウェア「Amazon ECS Anywhere」「Amazon EKS Anywhere」発表](https://www.publickey1.jp/blog/20/awsamazon_ecs_anywhereamazon_eks_anywhereaws_reinvent_2021.html)
