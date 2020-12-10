@@ -14,7 +14,7 @@
 
 #### [Amazon EKS add-ons のご紹介: Kubernetes 運用ソフトウェアのライフサイクル管理](https://aws.amazon.com/jp/blogs/news/introducing-amazon-eks-add-ons-jp/)
 
-#### [WebAssembly Night #10]https://youtu.be/HOAuzkGLVd8
+#### [WebAssembly Night #10](https://youtu.be/HOAuzkGLVd8)
 
 ### @ryojsb
 
