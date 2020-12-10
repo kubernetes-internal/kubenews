@@ -1,6 +1,6 @@
 # 002
 
-- Hosted by @ry
+- Hosted by @bells17
 - Recording date: 2020-12-11
 - Video:
 
