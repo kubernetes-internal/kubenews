@@ -20,6 +20,8 @@
 
 #### [ちょいと早い忘年会 OpenShift.Run Winter 2020 #11](https://openshift.connpass.com/event/191402/)
 
+#### [descheduler v0.20.0](https://github.com/kubernetes-sigs/descheduler/releases/tag/v0.20.0)
+
 ### @ryojsb
 
 #### With the release of GKE node version 1.19, the Container-Optimized OS with Docker (cos) variant is deprecated
