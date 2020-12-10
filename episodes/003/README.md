@@ -16,3 +16,10 @@
 - [containerd image](https://cloud.google.com/kubernetes-engine/docs/concepts/using-containerd)
 
 ### @chago
+
+- [Announcing General Availability of HashiCorp Nomad 1.0](https://www.hashicorp.com/blog/announcing-general-availability-of-hashicorp-nomad-1-0)
+  - Nomad 1.0 GA
+  - Nomad は hashicorp社のコンテナオーケストレータ
+
+- [NetApp To Embed Rancher Kubernetes In Its Hyperconverged Infrastructure](https://www.crn.com/news/cloud/netapp-to-embed-rancher-kubernetes-in-its-hyperconverged-infrastructure)
+  - NetAppがHCIにRancherを取り込む
