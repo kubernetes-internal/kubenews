@@ -10,6 +10,8 @@
 
 #### [「イラストでわかるDockerとKubernetes」は完全に良書](https://jaco.udcp.info/entry/2020/12/08/215058)
 
+- https://techfeed.io/comments/5fd1f6c715fc5aa76ae8c846
+
 #### [KubernetesのLoadBalancerやClusterIPを用いた中間者攻撃（CVE-2020-8554）](https://knqyf263.hatenablog.com/entry/2020/12/08/155720)
 
 #### [Amazon EKS add-ons のご紹介: Kubernetes 運用ソフトウェアのライフサイクル管理](https://aws.amazon.com/jp/blogs/news/introducing-amazon-eks-add-ons-jp/)
