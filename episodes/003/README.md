@@ -16,6 +16,8 @@
 
 #### [WebAssembly Night #10](https://youtu.be/HOAuzkGLVd8)
 
+#### [ちょいと早い忘年会 OpenShift.Run Winter 2020 #11](https://openshift.connpass.com/event/191402/)
+
 ### @ryojsb
 
 #### With the release of GKE node version 1.19, the Container-Optimized OS with Docker (cos) variant is deprecated
