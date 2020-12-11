@@ -6,6 +6,15 @@
 
 ## Contents
 
+### @chago
+
+- [Announcing General Availability of HashiCorp Nomad 1.0](https://www.hashicorp.com/blog/announcing-general-availability-of-hashicorp-nomad-1-0)
+  - Nomad 1.0 GA
+  - Nomad は hashicorp社のコンテナオーケストレータ
+
+- [NetApp To Embed Rancher Kubernetes In Its Hyperconverged Infrastructure](https://www.crn.com/news/cloud/netapp-to-embed-rancher-kubernetes-in-its-hyperconverged-infrastructure)
+  - NetAppがHCIにRancherを取り込む
+
 ### @bells17
 
 #### [「イラストでわかるDockerとKubernetes」は完全に良書](https://jaco.udcp.info/entry/2020/12/08/215058)
@@ -65,12 +74,3 @@ Kubernetesにおけるマルチテナンシーとは、複数のユーザー、�
 ・個別のクラスターまたは仮想クラスターを検討する。
   (https://loft.sh/blog/introduction-into-virtual-clusters-in-kubernetes/)
 ```
-
-### @chago
-
-- [Announcing General Availability of HashiCorp Nomad 1.0](https://www.hashicorp.com/blog/announcing-general-availability-of-hashicorp-nomad-1-0)
-  - Nomad 1.0 GA
-  - Nomad は hashicorp社のコンテナオーケストレータ
-
-- [NetApp To Embed Rancher Kubernetes In Its Hyperconverged Infrastructure](https://www.crn.com/news/cloud/netapp-to-embed-rancher-kubernetes-in-its-hyperconverged-infrastructure)
-  - NetAppがHCIにRancherを取り込む
