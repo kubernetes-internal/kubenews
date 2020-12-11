@@ -22,6 +22,8 @@
 
 #### [descheduler v0.20.0](https://github.com/kubernetes-sigs/descheduler/releases/tag/v0.20.0)
 
+#### [Kubernetes 1.20から始まるDockerランタイムの非推奨化に備えよう！我々が知っておくべきこと・すべきこと](https://thinkit.co.jp/article/18024)
+
 ### @ryojsb
 
 #### With the release of GKE node version 1.19, the Container-Optimized OS with Docker (cos) variant is deprecated
