@@ -74,3 +74,19 @@ Kubernetesにおけるマルチテナンシーとは、複数のユーザー、�
 ・個別のクラスターまたは仮想クラスターを検討する。
   (https://loft.sh/blog/introduction-into-virtual-clusters-in-kubernetes/)
 ```
+
+#### Graceful shutdown in Kubernetes is not always trivial
+- [FLANT blog](https://medium.com/flant-com/kubernetes-graceful-shutdown-nginx-php-fpm-d5ab266963c2)
+- nginxとPHP-FPMにおける、Graceful Shutdownの違いについて簡単に説明している。
+- 一例として以下のことが書かれていた。
+  - nginxでは、preStopに書くものは、`nginx -s quit`　だけで良い。
+  - PHP-FPMでは、プロセスを止めるのにsignalsで `sigterm`ではなく`sigquit`を送る必要があった。
+- 結論としては、
+  - Application側
+    - 数秒待ってから、新しい接続の受け入れを停止する必要があります。
+    - すべての要求が完了するまで待機し、アイドル状態のキープアライブ接続をすべて閉じる。
+    - 独自のプロセスを終了する必要があります。
+  - k8s側
+    - sleepなどの特定の遅延を実行するpreStopを追加します。
+    - 負荷試験などによって段階的にバックエンド構成を分析して、止める際に必要なparameterを導き出しましょう。
+
