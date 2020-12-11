@@ -11,6 +11,7 @@
 - [Announcing General Availability of HashiCorp Nomad 1.0](https://www.hashicorp.com/blog/announcing-general-availability-of-hashicorp-nomad-1-0)
   - Nomad 1.0 GA
   - Nomad は hashicorp社のコンテナオーケストレータ
+  - 参考 [Nomad? Kubernetes? どう違うの？](https://medium.com/hashicorp-engineering/nomad-kubernetes-%E3%81%AA%E3%81%AB%E3%81%8C%E9%81%95%E3%81%86%E3%81%AE-a3b1caf81d05)
 
 - [NetApp To Embed Rancher Kubernetes In Its Hyperconverged Infrastructure](https://www.crn.com/news/cloud/netapp-to-embed-rancher-kubernetes-in-its-hyperconverged-infrastructure)
   - NetAppがHCIにRancherを取り込む
