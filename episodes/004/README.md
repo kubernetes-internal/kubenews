@@ -28,6 +28,12 @@ Topology Aware Routing of Services： `topologyKeys`を用いてトラフィッ�
   - 例えばマルチAZ構成において、クライアントと同一ノードまたは同一AZのようなネットワーク的に近いエンドポイントにトラフィックが優先的にルーティングされるように指定できる。
 - 1Serviceに複数Endpointがひも付く構成になる。
 
+以下のマニフェストでは、
+1. `kubernetes.io/hostname`より、同一Node
+2. `topology.kubernetes.io/zone`より、同一Zone
+3. `topology.kubernetes.io/region`より、同一region
+4. `*`より、その他全て
+
 ```
 apiVersion: v1
 kind: Service
@@ -41,8 +47,10 @@ spec:
       port: 80
       targetPort: 9376
   topologyKeys:
+    - "kubernetes.io/hostname"
     - "topology.kubernetes.io/zone"
     - "topology.kubernetes.io/region"
+    - "*"
 ```
 
 #### OPA The Easy Way
