@@ -3,6 +3,7 @@
 - Hosted by @bells17
 - Recording date: 2020-12-11
 - Video:
+- Guest: @inductor
 
 ## Contents
 
