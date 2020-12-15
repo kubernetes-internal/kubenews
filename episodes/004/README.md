@@ -23,7 +23,7 @@
 
 Topology Aware Routing of Services： `topologyKeys`を用いてトラフィックを細かく分割する方法
   
-- Kubernetes v1.17 alpha機能
+- Kubernetes v1.17 alpha機能であり、影響範囲はPod-Pod間の通信
 - TopologyKeyにおいて、Nodeのlabelを設定することで、上から書かれている順番に応じて、優先的に指定Labelを持つNode上で動くPodに通信が流れるように設定できる。
   - 例えばマルチAZ構成において、クライアントと同一ノードまたは同一AZのようなネットワーク的に近いエンドポイントにトラフィックが優先的にルーティングされるように指定できる。
 - 1Serviceに複数Endpointがひも付く構成になる。
