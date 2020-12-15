@@ -19,6 +19,31 @@
 - kubeweekly(12/12)
 - [Google OSS Blog](https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html)
 - [Service Topology](https://kubernetes.io/docs/concepts/services-networking/service-topology/)
+  - [チェシャ猫さん資料](https://speakerdeck.com/ytaka23/jaws-container-sig-16th)
+
+Topology Aware Routing of Services： `topologyKeys`を用いてトラフィックを細かく分割する方法
+  
+- Kubernetes v1.17 alpha機能
+- TopologyKeyにおいて、Nodeのlabelを設定することで、上から書かれている順番に応じて、優先的に指定Labelを持つNode上で動くPodに通信が流れるように設定できる。
+  - 例えばマルチAZ構成において、クライアントと同一ノードまたは同一AZのようなネットワーク的に近いエンドポイントにトラフィックが優先的にルーティングされるように指定できる。
+- 1Serviceに複数Endpointがひも付く構成になる。
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    app: my-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
+  topologyKeys:
+    - "topology.kubernetes.io/zone"
+    - "topology.kubernetes.io/region"
+```
 
 #### OPA The Easy Way
 - kubeweekly(12/12)
