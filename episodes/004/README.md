@@ -71,4 +71,51 @@ spec:
 #### Automating Volume Expansion Management
 - kubeweekly(12/12)
 - [Redhut Openshift blog](https://www.openshift.com/blog/automating-volume-expansion-management-an-operator-based-approach)
+- [volume-expander-operator](https://github.com/redhat-cop/volume-expander-operator)
+
+Persistent Volumeを用いる際は、PrometheusにこのAlertを入れたほうがいい。
+
+```
+    - alert: "Storage Saturation"
+      labels:
+        severity: critical
+      annotations:
+        summary: Storage usage over 75%
+        persistentvolumeclaim: 
+        namespace: 
+      expr: kubelet_volume_stats_used_bytes / kubelet_volume_stats_capacity_bytes > 0.75
+      for: 1m
+ ```
+
+という前置きの元、PVの拡張を自動化するソリューションとして、volume-expander-operatorに関する紹介が始まる。
+
+- 監視したいPVCのannotationに`volume-expander-operator.redhat-cop.io/autoexpand: “true”`を設定が必要。
+  - Once enabled, the volume-expander-operator will start polling the platform Prometheus instance that is part of OpenShift Monitoringとあり、OpenShift
+- `kubelet_volume_stats_used_bytes`と`kubelet_volume_stats_capacity_bytes`の2つのメトリックより判断。
+- その他設定するannotaionは以下
+  - volume-expander-operator.redhat-c​​op.io/expand-threshold-percent: ボリュームの拡張をトリガーする閾値
+  - volume-expander-operator.redhat-c​​op.io/expand-by-percent: 拡張される既存ボリュームのサイズに基づくパーセンテージ
+  - volume-expander-operator.redhat-c​​op.io/expand-up-to: ボリュームの上限
+  - volume-expander-operator.redhat-c​​op.io/polling-frequency：　ポーリングする頻度
+
+参考manifest
+
+```
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  annotations:
+    volume-expander-operator.redhat-cop.io/autoexpand: 'true'
+    volume-expander-operator.redhat-cop.io/expand-threshold-percent: "85"
+    volume-expander-operator.redhat-cop.io/expand-by-percent: "20"
+    volume-expander-operator.redhat-cop.io/polling-frequency: "1m"
+    volume-expander-operator.redhat-cop.io/expand-up-to: "20Gi"
+  name: to-be-expanded
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: "1Gi"
+```
 
