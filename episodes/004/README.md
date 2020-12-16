@@ -90,7 +90,7 @@ Persistent Volumeを用いる際は、PrometheusにこのAlertを入れたほう
 という前置きの元、PVの拡張を自動化するソリューションとして、volume-expander-operatorに関する紹介が始まる。
 
 - 監視したいPVCのannotationに`volume-expander-operator.redhat-cop.io/autoexpand: “true”`を設定が必要。
-  - Once enabled, the volume-expander-operator will start polling the platform Prometheus instance that is part of OpenShift Monitoringとあり、OpenShift
+  - Once enabled, the volume-expander-operator will start polling the platform Prometheus instance that is part of OpenShift Monitoringとあり、OpenShiftでしかできなそう？？
 - `kubelet_volume_stats_used_bytes`と`kubelet_volume_stats_capacity_bytes`の2つのメトリックより判断。
 - その他設定するannotaionは以下
   - volume-expander-operator.redhat-c​​op.io/expand-threshold-percent: ボリュームの拡張をトリガーする閾値
