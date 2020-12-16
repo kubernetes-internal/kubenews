@@ -12,6 +12,12 @@
 
 ### @bells17
 
+#### [Amazon Managed Service for Prometheus features](https://aws.amazon.com/jp/grafana/)
+
+- https://techfeed.io/comments/5fd978d220b65e5c6b97c5d5
+- Grafanaのマネージドサービスも合わせて出ているよう
+  - https://techfeed.io/comments/5fd9798320b65e5c6b97c5f1
+
 
 ### @ryojsb
 
