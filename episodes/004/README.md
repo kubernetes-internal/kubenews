@@ -23,6 +23,10 @@
 - Grafanaのマネージドサービスも合わせて出ているよう
   - https://techfeed.io/comments/5fd9798320b65e5c6b97c5f1
 
+#### [Rancher Harvesterでk8sから仮想マシンを管理する](https://note.com/ryoma_0923/n/n5dc18f50545a)
+
+- https://techfeed.io/comments/5fdb4ea195e7b2ea3e072a56
+
 #### [今さら聞けないLivenessProbeとCrashLoopBackOffの挙動](https://qiita.com/shmurata/items/01109ae1a5a949e7b8e7)
 
 - https://techfeed.io/comments/5fdafd5bdbe8347e7643c2b2
