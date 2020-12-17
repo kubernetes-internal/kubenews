@@ -41,6 +41,7 @@
 
 #### [Kubernetes Internal #4](https://k8sinternal.connpass.com/event/199410)
 
+- 1月もやるよ！
 
 ### @ryojsb
 
