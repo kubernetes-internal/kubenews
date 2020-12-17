@@ -46,7 +46,7 @@ Topology Aware Routing of Services： `topologyKeys`を用いてトラフィッ�
 3. `topology.kubernetes.io/region`より、同一region
 4. `*`より、その他全て
 
-```
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -79,7 +79,7 @@ spec:
 
 Persistent Volumeを用いる際は、PrometheusにこのAlertを入れたほうがいい。
 
-```
+```yaml
     - alert: "Storage Saturation"
       labels:
         severity: critical
@@ -104,7 +104,7 @@ Persistent Volumeを用いる際は、PrometheusにこのAlertを入れたほう
 
 参考manifest
 
-```
+```yaml
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
@@ -124,3 +124,21 @@ spec:
 ```
 
 ### @inductor
+
+- [Kubernetes 1.20: SIG-API Machineryの変更内容](https://qiita.com/Ladicle/items/85d0ae2ddd4893ac4ca6) by Ladicle
+- [AWS・GCPとKubernetesの権限まわりの用語を具体例から理解する](https://tech.jxpress.net/entry/terms-and-concepts-of-iam-for-aws-and-gcp-and-k8s) by JX Press
+  - 開発者向けにAWSとGCPのIAMリソースの考え方の違いをわかりやすく解説
+  - EKS/GKEに関する例まで踏み込んで解説されている
+- [【Go言語】自作コンテナ沼。スクラッチでミニDockerを作ろう](https://kaminashi-developer.hatenablog.jp/entry/dive-into-swamp-container-scratch) by Kaminashi
+  - Liz Riceが作ったGo言語製の https://github.com/lizrice/containers-from-scratch をベースに、手を動かしながらコンテナを自前で作ってしまう話
+- [Kubernetes Podcast Episode #132: Akri, with Kate Goldenring](https://kubernetespodcast.com/episode/132-akri/)
+  - MSのSWEかつAkriのメンテナを務める[Kate Goldenring](https://twitter.com/KateGoldenring)をゲストとして、エッジデバイスを管理するための[Akri](https://github.com/deislabs/akri)に関するあれこれ話している
+    - Akriにおける「エッジデバイスの管理」はクラスターで完結している点が特徴
+    - デバイス側では何も設定する必要がない。以下のいずれかを満たしているデバイスが自動的に検出される
+    - ワーカーノードにUSBなどで接続された周辺機器
+    - ワーカーノードの所属するネットワークに接続されたネットワーク越しのデバイス(ネットワークカメラなど)
+      - 内部的には[RTSP](https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol)を用いて接続を試行することによってディスカバリを行っているようだ
+    - まだ現状はAlphaで、今後はプロトコルの拡張性を高めたり、ディスカバリ周りの改善などを行っていくといった旨が語られている
+      - Device Pluginを使った開発の面白さ
+      - Rustを使って開発している点
+![](https://github.com/deislabs/akri/blob/main/docs/media/akri-architecture.svg)
