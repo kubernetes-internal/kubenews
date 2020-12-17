@@ -39,6 +39,9 @@
 
 - https://techfeed.io/comments/5fdae3f7dbe8347e7643bfd6
 
+#### [Kubernetes Internal #4](https://k8sinternal.connpass.com/event/199410)
+
+
 ### @ryojsb
 
 #### Efficient Multi-Zone Networking with Topology Aware Routing
