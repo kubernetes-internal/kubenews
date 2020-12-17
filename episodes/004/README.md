@@ -22,7 +22,7 @@
 
 #### [Cloud Native 読書会第二回](https://docs.google.com/document/d/1beh1cRxaU-Qnu_SS574ANH7-q1aH9gFx3YKs3deND18/edit#)
 
-
+- https://techfeed.io/comments/5fdae3f7dbe8347e7643bfd6
 
 ### @ryojsb
 
@@ -123,3 +123,4 @@ spec:
       storage: "1Gi"
 ```
 
+### @inductor
