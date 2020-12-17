@@ -20,6 +20,10 @@
 
 #### [ローカルマシンでDocker を動かさないためにBlimp を採用する](https://y-ohgi.blog/entry/2020/12/15/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%9E%E3%82%B7%E3%83%B3%E3%81%A7Docker_%E3%82%92%E5%8B%95%E3%81%8B%E3%81%95%E3%81%AA%E3%81%84%E3%81%9F%E3%82%81%E3%81%ABBlimp_%E3%82%92%E6%8E%A1%E7%94%A8%E3%81%99%E3%82%8B)
 
+#### [Cloud Native 読書会第二回](https://docs.google.com/document/d/1beh1cRxaU-Qnu_SS574ANH7-q1aH9gFx3YKs3deND18/edit#)
+
+
+
 ### @ryojsb
 
 #### Efficient Multi-Zone Networking with Topology Aware Routing
