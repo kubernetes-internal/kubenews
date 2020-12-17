@@ -9,6 +9,10 @@
 
 ### @chago
 
+#### [Integrating Kubebuilder and Operator SDK](https://github.com/kubernetes-sigs/kubebuilder/blob/master/designs/integrating-kubebuilder-and-osdk.md)
+
+- https://twitter.com/y_taka_23/status/1339484757155987456
+
 
 ### @bells17
 
