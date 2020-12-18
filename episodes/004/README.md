@@ -1,7 +1,7 @@
 # 004
 
 - Hosted by @bells17
-- Recording date: 2020-12-11
+- Recording date: 2020-12-18
 - Video:
 - Guest: @inductor
 
