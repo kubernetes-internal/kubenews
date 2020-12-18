@@ -2,7 +2,7 @@
 
 - Hosted by @bells17
 - Recording date: 2020-12-18
-- Video:
+- Video: https://youtu.be/H6wCBH_QJA4
 - Guest: @inductor
 
 ## Contents
