@@ -91,6 +91,19 @@ spec:
   - [Presentation in Kubernetes Novice Tokyo by ry](https://speakerdeck.com/ry/policy-managershi-sitemita)
   - [Validation with kyverno](https://ryo-xjsbx.hatenablog.com/entry/kyverno)
 
+[無料オンライントレーニング](https://academy.styra.com/)と[Styra DAS Free]（https://www.styra.com/pricing)の宣伝。
+
+[VScode OPA Plugin]（https://marketplace.visualstudio.com/items?itemName=tsandall.opa)もあるらしい。
+
+- Styra DAS Freeへのアクセス
+- 自分のk8s clusterの登録
+- 各種ルールの作成
+- ルールのテスト
+- etc
+
+自分的に一番嬉しいのが、AddmissionReviewの取得ができるらしい！
+
+
 #### Automating Volume Expansion Management
 - kubeweekly(12/12)
 - [Redhut Openshift blog](https://www.openshift.com/blog/automating-volume-expansion-management-an-operator-based-approach)
