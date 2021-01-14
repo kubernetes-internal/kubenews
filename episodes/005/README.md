@@ -25,6 +25,10 @@ p.s. 技術書典お疲れ様でした！
 - Kubeletの解析も技術同人誌である程度まとめたくらいには進んだので、そろそろLinuxコンテナやコンテナランタイム周りの理解もしていきたいなということで気になった記事
 - なお内容が理解できているわけではないです
 
+#### [Toolboxの話](https://speakerdeck.com/kenya888/toolboxfalsehua-1438a53a-7182-4e0e-98c1-2607fe8047f1)
+
+- 気になる👀
+
 #### [Kubernetes InternalでKubeletについて話すときに使った補足資料です](https://speakerdeck.com/bells17/kubelet)
 
 - https://techfeed.io/comments/60007e344085a1b904ff58e1
