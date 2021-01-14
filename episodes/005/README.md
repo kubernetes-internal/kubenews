@@ -13,6 +13,8 @@
 - OpenShift Community Japan のツイートより
 ####  [2021年に注目すべきCNCFの5つのテクノロジーを「Kubernetes Meetup Tokyo」のセッション記事から解説する](https://zenn.dev/hodagi/articles/5461eb6f7e19bb)
 
+####  [Sysdig 2021 container security and usage report](https://sysdig.com/blog/sysdig-2021-container-security-usage-report/)
+
 p.s. 技術書典お疲れ様でした！
 
 ### @bells17
