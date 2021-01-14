@@ -19,7 +19,15 @@ p.s. 技術書典お疲れ様でした！
 
 ### @bells17
 
+#### [Kubernetes で cgroup がどう利用されているか](https://valinux.hatenablog.com/entry/20210114)
+
+- Kubernetesでcgroupがどう利用されているか調べられたという記事
+- Kubeletの解析も技術同人誌である程度まとめたくらいには進んだので、そろそろLinuxコンテナやコンテナランタイム周りの理解もしていきたいなということで気になった記事
+- なお内容が理解できているわけではないです
+
 #### [Kubernetes InternalでKubeletについて話すときに使った補足資料です](https://speakerdeck.com/bells17/kubelet)
+
+- https://techfeed.io/comments/60007e344085a1b904ff58e1
 
 #### [Kubeletから読み解くKubernetesのコンテナ管理の裏側](https://techbookfest.org/product/5738785868349440)
 
