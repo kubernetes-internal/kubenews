@@ -1,7 +1,7 @@
 # 005
 
 - Hosted by @bells17
-- Recording date: 2021-01-07
+- Recording date: 2021-01-13
 - Video: 
 
 ## Contents
@@ -18,5 +18,13 @@
 p.s. 技術書典お疲れ様でした！
 
 ### @bells17
+
+#### [Kubernetes InternalでKubeletについて話すときに使った補足資料です](https://speakerdeck.com/bells17/kubelet)
+
+#### [Kubeletから読み解くKubernetesのコンテナ管理の裏側](https://techbookfest.org/product/5738785868349440)
+
+- 技術書典10で販売したKubelet解説本です。興味ある方どうぞ
+- Boothでも販売開始しました
+- https://bells17.booth.pm/items/2649601
 
 ### @ryojsb
