@@ -40,3 +40,13 @@ p.s. 技術書典お疲れ様でした！
 - https://bells17.booth.pm/items/2649601
 
 ### @ryojsb
+
+#### [Kubernetes Storage Performance Comparison](https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4)
+- GlusterFS, CEPH, Portworx, OpenEBS(cStor backend), OpenEBS MayaStor, Longhornの比較記事
+- 比較はAKS上で実施
+- 結果としては、Portworx と OpenEBS Mayastorがすごそう
+
+#### [KubernetesにおけるContainer Object Storage Interface (COSI)の概要](https://qiita.com/ysakashita/items/9916f8ae922601e6fe6e#apis)
+- Object Storage用のCSI相当であるCOSIについての解説記事
+- BucketRequest (PVC)、Bucket (PV)、BucketClass (StorageClass)は分かった。
+- BucketAccessRequest、BucketAccess、BucketAccessClassあたりがいまいち。。。
