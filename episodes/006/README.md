@@ -12,6 +12,8 @@
 - [整理しながら理解するKubernetesネットワークの仕組み](https://speakerdeck.com/hhiroshell/kubernetes-network-fundamentals-69d5c596-4b7d-43c0-aac8-8b0e5a633fc2)
 - [これから学ぶKubernetesのReconciliation Loop](https://speakerdeck.com/yosshi_/korekaraxue-hukubernetesfalsereconciliation-loop)
 
+####  [Nvidia Views Kubernetes as Key to GPU Accelerated AI Scale](https://www.sdxcentral.com/articles/news/nvidia-views-kubernetes-as-key-to-gpu-accelerated-ai-scale/2021/01/?utm_campaign=website&utm_source=sendgrid&utm_medium=email)
+
 ### @bells17
 
 
