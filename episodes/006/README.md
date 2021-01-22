@@ -33,6 +33,8 @@
 
 #### [ZAP - ZCPをベースとしたマルチK8sのアプリケーション実行基盤](https://youtu.be/KUdLCzHW3hs)
 
+スライド: https://www2.slideshare.net/techblogyahoo/zap-zcpk8s-yjtc-yjtc21-b3-241223242
+
 - ZLabがYahoo!向けに構築しているZCPというKubernetes基盤の上に構築したZAPというアプリケーション基盤の紹介
 - ZAPはマルチテナントk8sクラスターでZAP管理者がZAP全体を管理するらしい
 - Appというカスタムリソースを記述することで、Kubernetesのリソースを自動作成してくれる
