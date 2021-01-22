@@ -1,7 +1,7 @@
 # 006
 
 - Hosted by @bells17
-- Recording date: 2021-01-２２
+- Recording date: 2021-01-22
 - Video: 
 
 ## Contents
