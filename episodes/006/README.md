@@ -71,7 +71,8 @@ GCPの様々なリソースについて絵を使って、動作やユースケ�
       - 認可されたプロセスのみがコンテナ名前空間内で動作する
       - 不正なリソースアクセスを防ぐ
       -　敵対的なツールアクティビティを検出するために、ネットワーク監視を行う 
-[What’s Your Kubernetes Maturity?](https://www.cncf.io/blog/2021/01/12/whats-your-kubernetes-maturity/)
+      
+#### [What’s Your Kubernetes Maturity?](https://www.cncf.io/blog/2021/01/12/whats-your-kubernetes-maturity/)
 - [Kubernetes Maturity Model](https://www.fairwinds.com/kubernetes-maturity-model)というものをざっくりと解説した記事
   - Phase1: Prepare
     - Kubernetesが、ビジネス目標と技術目標の推進にどのように役立つか、コスト、および達成しようとしていることを検討
@@ -84,6 +85,8 @@ GCPの様々なリソースについて絵を使って、動作やユースケ�
   - Phase4: Build Confidence
     - 経験から自信をつける段階
   - Phase5: Improve Operation
-    - 
-  - Phase6: 
-  - Phase7: 
+    - Kubernetesクラスターのセキュリティ、効率、信頼性を向上させる段階
+  - Phase6: Measure & Control
+    - この段階では、何を測定および追跡し、どのようにKubernetesを制御するかを理解すべく、より多くのデータ、インサイト、ツールによる情報を収集して処理する。
+    - infrastructure as code and CI/CD driven processes
+  - Phase7: Optimize and Auutomate
