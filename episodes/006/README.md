@@ -1,7 +1,7 @@
 # 006
 
 - Hosted by @bells17
-- Recording date: 2021-01-
+- Recording date: 2021-01-２２
 - Video: 
 
 ## Contents
@@ -20,6 +20,25 @@
 
 ### @bells17
 
+#### [Hitachi Kubernetes Service](https://www.hitachivantara.com/en-us/services/edge-to-cloud-infrastructure-services/kubernetes.html)
+
+- 日立さんのManaged Kubernetes Serviceのように見える
+- ebookが https://www.hitachivantara.com/en-us/pdfd/ebook/multicloud-kubernetes-management-ebook.pdf に公開されているよう
+- まだあまり情報が無いが、ハイブリットクラウドなどでの利用を想定したもので簡単に利用するためのUIを用意したものように見える...
+- https://www.hitachivantara.com/en-us/resources.html#vid=6223900960001 の動画内でダッシュボードが映っているが、印象としてはRancherをシンプル目にしたUIという印象
+
+#### [Welcome To The Container Jungle: Docker vs. containerd vs. Nabla vs. Kata vs. Firecracker and more!](https://www.inovex.de/blog/containers-docker-containerd-nabla-kata-firecracker/)
+
+- コンテナランタイムの種類についての紹介記事
+
+#### [ZAP - ZCPをベースとしたマルチK8sのアプリケーション実行基盤](https://youtu.be/KUdLCzHW3hs)
+
+- ZLabがYahoo!向けに構築しているZCPというKubernetes基盤の上に構築したZAPというアプリケーション基盤の紹介
+- ZAPはマルチテナントk8sクラスターでZAP管理者がZAP全体を管理するらしい
+- Appというカスタムリソースを記述することで、Kubernetesのリソースを自動作成してくれる
+- k8sのトラブルシュートに慣れてない人でもトラブルシュートに取り組めるようにkubectlをラップしていくつかの独自コマンドを追加したflctlというコマンドを提供
+- Flagship(Kubernetesクラスターのグループ?)/Ship(グループに参加するKubernetesクラスター)という仕組みによってマルチクラスター化することで大規模Kubernetesクラスターを実現しているよう
+- ZAP全体でFlagshipというのは1つにまとめられているのか？それともFlagshipも複数にわかれているのか？というのが気になった
 
 
 ### @ryojsb
