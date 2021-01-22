@@ -14,6 +14,10 @@
 
 ####  [Nvidia Views Kubernetes as Key to GPU Accelerated AI Scale](https://www.sdxcentral.com/articles/news/nvidia-views-kubernetes-as-key-to-gpu-accelerated-ai-scale/2021/01/?utm_campaign=website&utm_source=sendgrid&utm_medium=email)
 
+####  [Amazon: NOT OK - why we had to change Elastic licensing](https://www.elastic.co/jp/blog/why-license-change-AWS)
+- [Stepping up for a truly open source Elasticsearch](https://aws.amazon.com/jp/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/)
+- @_inductor_ , @takamori_tech , @tzkb さんから
+
 ### @bells17
 
 
