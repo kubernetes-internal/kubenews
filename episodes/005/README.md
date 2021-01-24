@@ -1,8 +1,8 @@
 # 005
 
 - Hosted by @bells17
-- Recording date: 2021-01-13
-- Video: 
+- Recording date: 2021-01-15
+- Video: https://youtu.be/8Y_aHyveDUY
 
 ## Contents
 
