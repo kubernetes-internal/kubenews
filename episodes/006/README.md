@@ -2,7 +2,7 @@
 
 - Hosted by @bells17
 - Recording date: 2021-01-22
-- Video: 
+- Video: https://youtu.be/Gr7dAYtM5W0
 
 ## Contents
 
