@@ -16,8 +16,6 @@
 - kubernetesの上で動かし、現在の使用状況からどれくらいのコストがかかりそうか、どれくらいのコストカットができそうかなどをみることができる。
 - 実際に見てもらいたいと思います。
 
-#### [GitOps-based Policy Management: How to Scale in a Multi-Node, Multicloud World](https://www.weave.works/blog/gitops-based-policy-management-multicloud)
-
 #### [Project Agumbe: Share Objects Across Namespaces in Kubernetes](https://engineering.salesforce.com/project-agumbe-share-objects-across-namespaces-in-kubernetes-1fc2e1ddb3eb)
 
 #### [Hoot: Advanced Istio Configuration with Envoy CRDs](https://www.youtube.com/watch?v=sUkeFAERvE8)
