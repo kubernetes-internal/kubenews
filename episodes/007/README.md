@@ -13,6 +13,8 @@
 ### @ryojsb
 
 #### [Kubernetes Cost Reporting using Kubecost](https://www.infracloud.io/blogs/kubernetes-cost-reporting-using-kubecost/)
+- kubernetesの上で動かし、現在の使用状況からどれくらいのコストがかかりそうか、どれくらいのコストカットができそうかなどをみることができる。
+- 実際に見てもらいたいと思います。
 
 #### [GitOps-based Policy Management: How to Scale in a Multi-Node, Multicloud World](https://www.weave.works/blog/gitops-based-policy-management-multicloud)
 
@@ -23,6 +25,14 @@
 #### [Hoot: Advanced Istio Configuration with Envoy CRDs](https://www.youtube.com/watch?v=sUkeFAERvE8)
 
 #### [【EKSWorkshop】EKSやkubernetes周辺を効率よく学ぶのにオススメなチュートリアル集](https://dev.classmethod.jp/articles/eks-workshop/)
+- EKSを学んでいくためのチュートリアル
+- 一緒にやっていく人を大募集中なので、よければryにご連絡ください。
+- やりたいもの
+  - Start the workshop
+  - Deploy the Example Microservices
+  - Autoscaling our Applications and Clusters
+  - Using Spot Instances with EKS
+  - Service Mesh With App Mesh
 
 ### @chago
 
