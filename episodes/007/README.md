@@ -40,10 +40,11 @@
 - https://twitter.com/uesyn/status/1353615409639878657 のツイートで知った
 - https://techfeed.io/comments/600efcdb78df31bc1b2c96a9
 
-#### [Kubernetes Community Day - El Salvador]()
+#### [Kubernetes Community Day - El Salvador](https://community.cncf.io/events/details/cncf-san-salvador-presents-kubernetes-community-day-el-salvador/)
 
 - Kubernetes Community Dayをやるらしい
 - これはオンライン配信なのかな？
 - エルサルバドルの首都のサンサルバドルというところで開催するっぽい
 - https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%90%E3%83%89%E3%83%AB
 
+#### [コンテナレジストリの可用性を高める取り組み](https://blog.cybozu.io/entry/2021/01/26/090000)
