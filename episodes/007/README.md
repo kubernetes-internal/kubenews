@@ -48,3 +48,5 @@
 - https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%90%E3%83%89%E3%83%AB
 
 #### [コンテナレジストリの可用性を高める取り組み](https://blog.cybozu.io/entry/2021/01/26/090000)
+
+#### [Scaling Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
