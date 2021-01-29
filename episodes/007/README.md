@@ -18,8 +18,6 @@
 
 #### [Project Agumbe: Share Objects Across Namespaces in Kubernetes](https://engineering.salesforce.com/project-agumbe-share-objects-across-namespaces-in-kubernetes-1fc2e1ddb3eb)
 
-#### [Hoot: Advanced Istio Configuration with Envoy CRDs](https://www.youtube.com/watch?v=sUkeFAERvE8)
-
 #### [【EKSWorkshop】EKSやkubernetes周辺を効率よく学ぶのにオススメなチュートリアル集](https://dev.classmethod.jp/articles/eks-workshop/)
 - EKSを学んでいくためのチュートリアル
 - 一緒にやっていく人を大募集中なので、よければryにご連絡ください。
