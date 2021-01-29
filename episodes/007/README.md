@@ -32,6 +32,11 @@
 
 ### @chago
 
+欠席します！！ごめんなさい！！
+Container Runtime Meetup楽しかったのでよかったらこの話で盛り上がってください。
+
+- [Container Runtime Meetup #3 connpass](https://runtime.connpass.com/event/198071/)
+- [Container Runtime Meetup #3 youtube](https://www.youtube.com/watch?v=6Nii4k7nKmM&feature=youtu.be)
 
 ### @bells17
 
