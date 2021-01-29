@@ -17,6 +17,8 @@
 - 実際に見てもらいたいと思います。
 
 #### [Project Agumbe: Share Objects Across Namespaces in Kubernetes](https://engineering.salesforce.com/project-agumbe-share-objects-across-namespaces-in-kubernetes-1fc2e1ddb3eb)
+- Global ResourceというCRD オブジェクトを使って、Namespaceに依存するリソースの複製を他のNamespaceにつくるもの
+- コピー元をParent Object、コピーをChild Objectと呼ぶ。
 
 #### [【EKSWorkshop】EKSやkubernetes周辺を効率よく学ぶのにオススメなチュートリアル集](https://dev.classmethod.jp/articles/eks-workshop/)
 - EKSを学んでいくためのチュートリアル
