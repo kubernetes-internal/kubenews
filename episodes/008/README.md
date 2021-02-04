@@ -14,5 +14,10 @@
 
 ### @chago
 
+#### [Nested OpenShift using OpenShift Virtualization](https://www.openshift.com/blog/nested-openshift-using-openshift-virtualization)
+- OpenShift Virtualization (KubeVirt) で作成した VM で クラスタをつくる話 (by @superbrothers)
+#### [KubeVirt Summit](https://community.cncf.io/events/details/cncf-kubevirt-community-presents-kubevirt-summit/#/)
+- 2021年2月9日14:00 - 2021年2月10日19:00 (UTC)
+- 実際のところ、どれくらい使われてるんだろうか？ (by @yosshi_)
 
 ### @bells17
