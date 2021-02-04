@@ -14,6 +14,14 @@
 - [Screwdriver](https://screwdriver.cd/)
 - [Athenz](https://www.athenz.io/)
 
+#### [Self-Service Velero Backups with Kyverno](https://nirmata.com/2021/01/24/self-service-velero-backups-with-kyverno/)
+veleroを使ってバックアップの準備をし、kyvernoのgenerate機能を用いて`nirmata.io/auto-backup: enabled`というlabelが付いたNamespaceが作成されたときに、VeleroのBackup Scheduleを作成するもの。
+
+#### [LWKD](http://lwkd.info/2021/20210202)
+- 気になったトピック
+  - [Add EndPort to Network Policy](https://github.com/kubernetes/kubernetes/pull/97058)
+  - [prefer nominated node](https://github.com/kubernetes/kubernetes/pull/93179)  
+
 ### @chago
 
 #### [Nested OpenShift using OpenShift Virtualization](https://www.openshift.com/blog/nested-openshift-using-openshift-virtualization)
