@@ -29,6 +29,7 @@ veleroを使ってバックアップの準備をし、kyvernoのgenerate機能�
 #### [KubeVirt Summit](https://community.cncf.io/events/details/cncf-kubevirt-community-presents-kubevirt-summit/#/)
 - 2021年2月9日14:00 - 2021年2月10日19:00 (UTC)
 - 実際のところ、どれくらい使われてるんだろうか？ (by @yosshi_)
+#### [Cloud Native Computing Foundation Announces Open Policy Agent Graduation](https://www.cncf.io/announcements/2021/02/04/cloud-native-computing-foundation-announces-open-policy-agent-graduation/)
 
 余談：話題のアプリclubhouseで「今週のKubernetes☸ 」という企画を目撃した
 
