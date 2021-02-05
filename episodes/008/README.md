@@ -37,3 +37,47 @@ veleroを使ってバックアップの準備をし、kyvernoのgenerate機能�
 余談：話題のアプリclubhouseで「今週のKubernetes☸ 」という企画を目撃した
 
 ### @bells17
+
+#### [Hacking Kubernetes](https://www.oreilly.com/library/view/hacking-kubernetes/9781492081722/)
+
+Table of Contentsはこんな感じらしい
+ネットワーク周り面白そう
+
+- Preface
+  - Who Should Read This Book
+  - Why We Wrote This Book
+  - How To Use This Book
+  - Conventions Used in This Book
+  - Using Code Examples
+  - O’Reilly Online Learning
+  - How to Contact Us
+- 1. Networking
+  - Defaults
+  - Threat models
+  - Intra-pod networking
+  - Inter-pod networking
+    - Traffic flow control
+    - ARP-based attacks
+  - No security context
+  - No environmental restrictions
+  - No workload identity
+  - No encryption on the wire
+  - Service Meshes
+    - Concept
+    - Options and uptake
+    - Case study: mTLS with Linkerd
+- 2. Container Runtime Isolation
+  - Sensitive Workloads
+  - What’s wrong with containers?
+  - User Namespace Vulnerabilities
+  - Containers, VMs, and sandboxes
+  - How virtual machines work
+  - Sandboxes: Mixing Containers and VMs
+  - gVisor vs Firecracker vs Kata
+    - gVisor
+    - Firecracker
+    - Kata Containers
+  - rust-vmm
+  - What are the risks of next gen proc iso?
+  - Which Sandbox to Use?
+  - Kubernetes RuntimeClass
