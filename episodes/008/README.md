@@ -2,9 +2,12 @@
 
 - Hosted by @bells17
 - Recording date: 2021-02-05
-- Video: 
+- Video: https://youtu.be/QtHOLScNtXY
+- Guest: @tzkb
 
 ## Contents
+
+### @tzkb
 
 ### @ryojsb
 #### [スクリュードライバーとKubernetesを使用したデータベースのマイグレーション](https://www.verizonmedia.com/technology/blog/database-migrations-using-screwdriver-kubernetes)
