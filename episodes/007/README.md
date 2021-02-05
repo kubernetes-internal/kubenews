@@ -2,12 +2,9 @@
 
 - Hosted by @bells17
 - Recording date: 2021-01-29
-- Video: 
-- Guest: @tzkb
+- Video: https://youtu.be/uVGFl7O2CCw
 
 ## Contents
-
-### @tzkb
 
 
 ### @ryojsb
