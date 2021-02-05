@@ -8,6 +8,15 @@
 ## Contents
 
 ### @tzkb
+#### [KUBERNETES上にGo言語とNoSQLで、独自のマイクロサービスフレームワークを構築した話](https://speakerdeck.com/iwask/kubernetes-shang-ni-go-yan-yu-to-nosql-de-du-zi-falsemaikurosabisuhuremuwakuwo-gou-zhu-sitahua)
+- DB on Kubernetesがてんこもり。
+
+#### [分散ストレージCephのオーケストレータRookのデータ破壊バグを修正しました](https://blog.cybozu.io/entry/2021/01/28/065400)
+- いい話。
+ 
+#### [業界初のクラウドネイティブ専用ベアメタルコンテナプラットフォームDIAMANTIを知ろう！](https://hybridcloud.connpass.com/event/203151/)
+- 来週のMeetup
+- Kubernetes用のHCIであるDIAMANTIを取り上げた、国内では珍しい内容になる模様。
 
 ### @ryojsb
 #### [スクリュードライバーとKubernetesを使用したデータベースのマイグレーション](https://www.verizonmedia.com/technology/blog/database-migrations-using-screwdriver-kubernetes)
