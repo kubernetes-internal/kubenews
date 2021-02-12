@@ -18,7 +18,7 @@
 ### @bells17
 
 ### @ryojsb
-#### [How to Debug CrashLoopBackOff in a Container](https://releaseapp.io/blog/kubernetes-how-to-debug-crashloopbackoff-in-a-container)
+#### [Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
 
 #### [NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies](https://cilium.io/blog/2021/02/10/network-policy-editor)
 
