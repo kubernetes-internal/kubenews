@@ -9,6 +9,12 @@
 
 ### @chago
 
+#### [Kubernetesを標的とする新たなTeamTNTのクリプトジャックマルウェア](https://unit42.paloaltonetworks.jp/hildegard-malware-teamtnt/)
+- TwitterのTLで話題になっていた
+- セキュアではないDockerデーモンを悪用し、悪意のあるコンテナイメージをデプロイする
+
+#### [NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies](https://cilium.io/blog/2021/02/10/network-policy-editor)
+
 ### @bells17
 
 ### @ryojsb
