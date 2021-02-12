@@ -14,8 +14,7 @@
 ### @ryojsb
 #### [How to Debug CrashLoopBackOff in a Container](https://releaseapp.io/blog/kubernetes-how-to-debug-crashloopbackoff-in-a-container)
 
-#### [Hunting for Malware with Falco](https://dlorenc.medium.com/hunting-for-malware-with-falco-834b19b398c9)
-
 #### [NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies](https://cilium.io/blog/2021/02/10/network-policy-editor)
 
 #### [EKS vs GKE vs AKS](https://www.stackrox.com/post/2021/01/eks-vs-gke-vs-aks-jan2021/)
+- 3つのサービスを表を用いて比較してくれている。
