@@ -24,9 +24,10 @@
 #### [Cloud Native Rust Day | Linux Foundation Events](https://events.linuxfoundation.org/cloud-native-rust-day/)
 
 ### @ryojsb
+#### [NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies](https://cilium.io/blog/2021/02/10/network-policy-editor)
+
 #### [Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno/)
 
-#### [NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies](https://cilium.io/blog/2021/02/10/network-policy-editor)
 - PSP(Pod Security Policy)の廃止に伴って、代替手段としてOPA-GAtekeeperとKyvernoを比較している。
 - ゲートキーパーの利点
    - 非常に複雑なポリシーを表現できる
