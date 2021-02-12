@@ -1,9 +1,9 @@
-# 008
+# 009
 
 - Hosted by @bells17
 - Recording date: 2021-02-12
-- Video: 
-- Guest: 
+- Video: https://youtu.be/WH3FcQY3zk8
+- Guest: -
 
 ## Contents
 
