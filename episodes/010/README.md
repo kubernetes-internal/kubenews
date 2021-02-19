@@ -9,6 +9,10 @@
 
 ### @bells17
 
+#### [Kubernetes Internal #5](https://k8sinternal.connpass.com/event/203946/)
+
+- 来週月曜日にやります！
+
 #### [Donating Docker Distribution to the CNCF](https://www.docker.com/blog/donating-docker-distribution-to-the-cncf/)
 
 - https://techfeed.io/comments/602f89caff99973924d02638
