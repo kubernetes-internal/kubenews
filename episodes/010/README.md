@@ -19,6 +19,10 @@
 
 #### [Kubernetes co-creator Joe Beda answers 2 key questions](https://www.infoworld.com/article/3605728/kubernetes-co-creator-joe-beda-answers-2-key-questions.html)
 
+- https://techfeed.io/comments/602fa6da5c30c09a60efc324
+
+#### [Kubernetes co-creator Joe Beda answers 2 key questions](https://www.infoworld.com/article/3605728/kubernetes-co-creator-joe-beda-answers-2-key-questions.html)
+
 ### @ryojsb
 #### [Getting started with Kubernetes audit logs and Falco](https://sysdig.com/blog/kubernetes-audit-log-falco/)
 
