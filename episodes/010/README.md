@@ -13,6 +13,9 @@
 
 - https://techfeed.io/comments/602f89caff99973924d02638
 
+#### [今からでも遅くない! Kubernetesを最速で学ぶための学習法とは](https://thinkit.co.jp/article/18079)
+
+- https://techfeed.io/comments/602f8b9d5c30c09a60efc003
 
 ### @ryojsb
 #### [Getting started with Kubernetes audit logs and Falco](https://sysdig.com/blog/kubernetes-audit-log-falco/)
