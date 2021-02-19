@@ -9,6 +9,11 @@
 
 ### @bells17
 
+#### [Donating Docker Distribution to the CNCF](https://www.docker.com/blog/donating-docker-distribution-to-the-cncf/)
+
+- https://techfeed.io/comments/602f89caff99973924d02638
+
+
 ### @ryojsb
 #### [Getting started with Kubernetes audit logs and Falco](https://sysdig.com/blog/kubernetes-audit-log-falco/)
 
