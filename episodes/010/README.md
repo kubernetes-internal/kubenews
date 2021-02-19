@@ -21,7 +21,9 @@
 
 - https://techfeed.io/comments/602fa6da5c30c09a60efc324
 
-#### [Kubernetes co-creator Joe Beda answers 2 key questions](https://www.infoworld.com/article/3605728/kubernetes-co-creator-joe-beda-answers-2-key-questions.html)
+#### [11 tools that make Kubernetes better](https://www.infoworld.com/article/3261450/11-tools-that-make-kubernetes-better.html)
+
+- https://techfeed.io/comments/602fb018ff99973924d02a9a
 
 ### @ryojsb
 #### [Getting started with Kubernetes audit logs and Falco](https://sysdig.com/blog/kubernetes-audit-log-falco/)
