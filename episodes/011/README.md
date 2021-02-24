@@ -40,3 +40,5 @@ p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいん�
 #### [Achieving Cloud Native Security and Compliance with Teleport](https://www.infracloud.io/blogs/achieving-cloud-native-security-compliance-teleport/)
 
 #### [CNCF Live Webinar: How to Manage Kubernetes Application Lifecycle Using Carvel](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-how-to-manage-kubernetes-application-lifecycle-using-carvel/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_HBVKRXAD06_CpuwK_EwXMGM-hEpOtjwyOkwa6ITw9rv9WMi3Iea2ZUlAh39jPBswmTSEI#/)
+
+#### [Configure multi-tenancy with Kubernetes namespaces](https://opensource.com/article/21/2/kubernetes-namespaces)
