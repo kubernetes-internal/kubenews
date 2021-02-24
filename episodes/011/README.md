@@ -46,3 +46,6 @@ p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいん�
 - RBAC: Kubernetes のロールベースのアクセス制御
 - Network Policy: 名前空間間のトラフィックを分離するには
 - Resource Quota: クラスタリソースへのフェアなアクセスを制御
+
+[Userの作り方はこちらを参照](https://www.adaltas.com/en/2019/08/07/users-rbac-kubernetes/)
+
