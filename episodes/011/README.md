@@ -21,7 +21,8 @@
 
 #### [完全マネージドな k8s ! GKE Autopilot を解説する](https://medium.com/google-cloud-jp/gke-autopilot-87f8458ccf74?source=social.tw&_branch_match_id=890382845353688350)
 - by @kazshinohara さん
-
+#### [ともに踏み出すCloudNative祭 プレイベント](https://cloudnativedays.connpass.com/event/203386/)
+- 本日先ほどまで行われていました！
 
 p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいんですけど需要ありますかね？？
 
