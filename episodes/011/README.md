@@ -19,6 +19,10 @@
 #### [Install Docker on Windows (WSL) "without" Docker Desktop](https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9)
 - これ読んだらWSL2に強くなれるかも(？)
 
+#### [完全マネージドな k8s ! GKE Autopilot を解説する](https://medium.com/google-cloud-jp/gke-autopilot-87f8458ccf74?source=social.tw&_branch_match_id=890382845353688350)
+- by @kazshinohara さん
+
+
 p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいんですけど需要ありますかね？？
 
 
