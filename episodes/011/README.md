@@ -22,7 +22,12 @@
 #### [完全マネージドな k8s ! GKE Autopilot を解説する](https://medium.com/google-cloud-jp/gke-autopilot-87f8458ccf74?source=social.tw&_branch_match_id=890382845353688350)
 - by @kazshinohara さん
 #### [ともに踏み出すCloudNative祭 プレイベント](https://cloudnativedays.connpass.com/event/203386/)
-- 本日先ほどまで行われていました！
+- 本日先ほどまで行われていました！(←先週の話)
+- 3/11, 3/12の2日間にわたって行われるよ！
+
+#### [巨大モノリスをKubernetesに移行してシングルクラスタ運用にするためにどうしたか](https://engineering.mercari.com/blog/entry/20210302-move-monolith-into-kube/)
+- モノリシックからマイクロサービス
+- 
 
 p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいんですけど需要ありますかね？？
 
