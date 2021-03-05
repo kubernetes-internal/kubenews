@@ -44,6 +44,7 @@ p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいん�
 
 #### [Kubernetes 専門家として知るべき 47 のこと](https://ymmt.hatenablog.com/entry/k8s-things)
 
+- https://twitter.com/bells17_/status/1367404110647980036
 
 
 ### @ryojsb
