@@ -52,6 +52,13 @@ p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいん�
 #### [Getting started with Kubernetes audit logs and Falco](https://sysdig.com/blog/kubernetes-audit-log-falco/)
 
 #### [Achieving Cloud Native Security and Compliance with Teleport](https://www.infracloud.io/blogs/achieving-cloud-native-security-compliance-teleport/)
+teleport
+- SSH/Kubernetes ゲートウェイ マシンとして機能
+- Kubernetes クラスターで実行されるすべての kubectl コマンドの監査ログと記録を提供
+- 静的なkeyに依存せず、SSH 証明書に基づく認証を提供
+- etc
+その他アーキテクチャ、デモが紹介されている。
+サイボウズからも情報がでている。(https://blog.cybozu.io/entry/2019/07/31/100000)
 
 #### [CNCF Live Webinar: How to Manage Kubernetes Application Lifecycle Using Carvel](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-how-to-manage-kubernetes-application-lifecycle-using-carvel/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_HBVKRXAD06_CpuwK_EwXMGM-hEpOtjwyOkwa6ITw9rv9WMi3Iea2ZUlAh39jPBswmTSEI#/)
 
