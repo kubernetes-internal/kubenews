@@ -49,7 +49,7 @@ p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいん�
 #### [Configure multi-tenancy with Kubernetes namespaces](https://opensource.com/article/21/2/kubernetes-namespaces)
 - 以下のポイントを抑える。
   - RBAC: Kubernetes のロールベースのアクセス制御
-  - Network Policy: 名前空間間のトラフィックを分離するには
+  - Network Policy: namespace間のトラフィックを分離するには
   - Resource Quota: クラスタリソースへのフェアなアクセスを制御
 
 - [Userの作り方はこちらを参照](https://www.adaltas.com/en/2019/08/07/users-rbac-kubernetes/)
