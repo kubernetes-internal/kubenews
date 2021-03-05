@@ -1,7 +1,7 @@
 # 011
 
 - Hosted by @bells17
-- Recording date: 2021-02-26
+- Recording date: 2021-03-05
 - Video:
 - Guest: -
 
@@ -36,6 +36,9 @@ p.s. novice meetupの番外編でhashicorp noviceみたいなのやりたいん�
 #### [11 tools that make Kubernetes better](https://www.infoworld.com/article/3261450/11-tools-that-make-kubernetes-better.html)
 
 - https://techfeed.io/comments/602fb018ff99973924d02a9a
+
+#### [Kubernetes 専門家として知るべき 47 のこと](https://ymmt.hatenablog.com/entry/k8s-things)
+
 
 
 ### @ryojsb
