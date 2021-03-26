@@ -23,4 +23,13 @@
 - リモート・バックアップを使用して、アプリケーションとそのアプリケーションの現在の状態に対するフルバックアップを取り、別のリージョンの別の Kubernetes クラスターに復元することが可能。
 - アクティブクローンを用いて、アプリ全体とそのデータを、場所に関係なく、あるKubernetes クラスターから別のクラスターに移動可能。
 
+#### [Configure your Kubernetes Ingress with Ingress Builder](https://www.jetstack.io/blog/introducing-ingress-builder/)
+以前にNetworkPloicyに関して、GUIでManifestを作成できるツールをご紹介しましたが、
+今回は、Ingressに関するツールが出たようです。
+https://ingressbuilder.jetstack.io/#tab-content-v1
+
+Ingress Builder was developed to make configuring Ingress resources more interactive by allowing users to discover and configure annotations for their Ingress controllers easily in a single web interface.
+と書かれているので、Annotation専用になっている。
+少し勿体無い。。。
+
 ### @chago
