@@ -1,8 +1,8 @@
 # 013
 
 - Hosted by @bells17
-- Recording date: 2021-03-012
-- Video: https://youtu.be/WBYJi0UF_Uw
+- Recording date: 2021-03-26
+- Video: https://youtu.be/RGms05yeuq8
 - Guest: -
 
 ## Contents
