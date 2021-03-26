@@ -8,9 +8,6 @@
 ## Contents
 
 
-
-### @bells17
-
 ### @ryojsb
 
 #### [Open Source solutions for chaos engineering in Kubernetes](https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/)
@@ -39,4 +36,12 @@ Ingress Builder was developed to make configuring Ingress resources more interac
 - いつOPAを採用する必要が
   - 新しいテクノロジーの採用に慎重な場合は、OPAを本番ワークフローに組み込む前に少し待つことをお勧する。
   - エンジニアがどのようなスキルと好みを持っているかに一部依存するため、最新かつ最高のDevOpsツールを使用するのが好きならOPAは良いかもしれない一方、最先端よりも実証済みの方法を好む場合は、OPAが成熟するのを待つことをお勧します。 
+
+### @bells17
+
+#### [KUBERNETES THE HARD WAY IN "VAGRANT"?](https://suraj.io/post/2021/03/kthw-vagrant/)
+
+- Kubernetes The Hard WayをVagrantでやるためのリポジトリを紹介してくれてる
+- control plane(+etcd) と workerが別々のVMに分かれてて結構本格的な気がしてる
+
 ### @chago
