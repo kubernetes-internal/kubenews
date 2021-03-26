@@ -11,6 +11,11 @@
 
 ### @bells17
 
+#### [KUBERNETES THE HARD WAY IN "VAGRANT"?](https://suraj.io/post/2021/03/kthw-vagrant/)
+
+- Kubernetes The Hard Wayをvagrantで実行するリポジトリについて
+- なんだかんだでVagrantのVM上でやったことがなかったので気になる
+
 ### @ryojsb
 
 #### [Open Source solutions for chaos engineering in Kubernetes](https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/)
