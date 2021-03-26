@@ -11,11 +11,6 @@
 
 ### @bells17
 
-#### [KUBERNETES THE HARD WAY IN "VAGRANT"?](https://suraj.io/post/2021/03/kthw-vagrant/)
-
-- Kubernetes The Hard Wayをvagrantで実行するリポジトリについて
-- なんだかんだでVagrantのVM上でやったことがなかったので気になる
-
 ### @ryojsb
 
 #### [Open Source solutions for chaos engineering in Kubernetes](https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/)
@@ -38,4 +33,10 @@ Ingress Builder was developed to make configuring Ingress resources more interac
 と書かれているので、Annotation専用になっている。
 少し勿体無い。。。
 
+#### [Who Needs Open Policy Agent?](https://www.itprotoday.com/devops-and-software-development/who-needs-open-policy-agent)
+- EnterpriseはOPAが必要か。
+  - 会社にOPAが必要かどうかは、ワークロードをどの程度スケーラブルにする必要があるか、およびワークフローの作成をどの程度自動化するかによって異なる。
+- いつOPAを採用する必要が
+  - 新しいテクノロジーの採用に慎重な場合は、OPAを本番ワークフローに組み込む前に少し待つことをお勧する。
+  - エンジニアがどのようなスキルと好みを持っているかに一部依存するため、最新かつ最高のDevOpsツールを使用するのが好きならOPAは良いかもしれない一方、最先端よりも実証済みの方法を好む場合は、OPAが成熟するのを待つことをお勧します。 
 ### @chago
