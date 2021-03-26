@@ -13,7 +13,7 @@
 
 ### @ryojsb
 
-#### [hierarchical-resource-quotas](https://cloud.google.com/kubernetes-engine/docs/add-on/config-sync/how-to/using-hierarchical-resource-quotas)
+#### [Open Source solutions for chaos engineering in Kubernetes](https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/)
 
 #### [MinIO as Object Storage as a Service](https://blog.min.io/object_storage_as_a_service_on_minio/)
 
