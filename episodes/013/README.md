@@ -29,6 +29,7 @@
 https://ingressbuilder.jetstack.io/#tab-content-v1
 
 Ingress Builder was developed to make configuring Ingress resources more interactive by allowing users to discover and configure annotations for their Ingress controllers easily in a single web interface.
+
 と書かれているので、Annotation専用になっている。
 少し勿体無い。。。
 
