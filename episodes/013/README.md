@@ -44,4 +44,10 @@ Ingress Builder was developed to make configuring Ingress resources more interac
 - Kubernetes The Hard WayをVagrantでやるためのリポジトリを紹介してくれてる
 - control plane(+etcd) と workerが別々のVMに分かれてて結構本格的な気がしてる
 
+#### [VictoriaMetrics と Grafana による Kubernetes クラスタのモニタリング](https://blog.cybozu.io/entry/2021/03/18/115743)
+
+- サイボウズさんがVictoriaMetricsを採用した話
+- VictoriaMetrics operatorにもコントリビューションしてるのが強いなと思った
+
+
 ### @chago
