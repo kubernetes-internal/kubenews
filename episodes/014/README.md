@@ -62,6 +62,11 @@ JMeter、LitmusChaos、Prometheusなどの多くの有名なサービスとの�
 
 #### [Postgres Operator](https://github.com/zalando/postgres-operator)
 
+- おまけ
+  - https://github.com/banzaicloud/logging-operator/blob/3.9.2/pkg/sdk/api/v1beta1/logging_types.go#L275
+
+#### [KubernetesのReconcile処理で無駄な更新をしない方法](https://zenn.dev/zoetro/articles/7cf5bbf58e163e)
+
 ### @chago
 
 #### [コマンド1発でKubernetes上にProduction Readyな環境を手に入れる](https://www.lifull.blog/entry/2021/03/30/100000)
