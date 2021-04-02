@@ -36,6 +36,8 @@ Host Kernelを使う場合は、QkernelからQcall + Host systemcall もしく�
   - テストに合格するために満たす必要があるSLIを使用して特定の条件
 
 〇 Keptonの紹介
+- Kobaさん提供
+- kubestrというツールについて
 
 ```
 宣言型アプローチ
