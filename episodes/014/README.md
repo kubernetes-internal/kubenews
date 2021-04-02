@@ -72,4 +72,4 @@ JMeter、LitmusChaos、Prometheusなどの多くの有名なサービスとの�
 #### [コマンド1発でKubernetes上にProduction Readyな環境を手に入れる](https://www.lifull.blog/entry/2021/03/30/100000)
 - @mochizuki875 さんからの提供
 
-#### [Kubernetes v1.21で導入される型安全なServer Side Apply](https://zenn.dev/zoetro/articles/96f30897f3e369)
+#### [ネットアップ、Kubernetesアプリとデータの統合管理「NetApp Astra」発表](https://ascii.jp/elem/000/004/049/4049630/)
