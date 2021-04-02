@@ -20,8 +20,37 @@ RUST製のOCI Runtime
 Host Kernelを使う場合は、QkernelからQcall + Host systemcall もしくは IO-Uring
 
 #### [Modern continuous delivery on Kubernetes for developers](https://dev.to/gabrieltanner/modern-continuous-delivery-on-kubernetes-for-developers-5chf)
+〇 CDの概念
+- 宣言型
+  - 開発者は何を行う必要があるかを定義し、残りをCDツールに処理させる
+- スケーラブル
+  - 既存のパイプラインまたは宣言的に定義されたプロジェクトに、新しいサービスを追加することの容易性やサービスのこれらのさまざまな構成を維持することに対する労力を考慮する必要がある。
+- 拡張可能性
+  - 既存のツールを使用してCDワークフローと統合し、既存の機能とともに新しいカスタム機能を実装することができるか
+  - Prometheusなどの可観測性ツールやJmeterやNeoloadなどのテスト自動化
+- 品質ゲート
+  - サービスを本番環境にデプロイする前に、具体的に定義された基準（応答時間、エラー率、スループットなど）が満たされていることを自動的に確認するための仕組み
+- SLI
+  - 応答時間、エラー率、スループットなど、アプリケーションのいくつかの側面の定量的指標
+- SLO
+  - テストに合格するために満たす必要があるSLIを使用して特定の条件
+
+〇 Keptonの紹介
+
+```
+宣言型アプローチ
+
+Keptnには、SLIやSLOなどのSRE原則に基づく組み込みの品質ゲートも含まれており、
+定義された基準を評価およびスコアリングして、新しいバージョンを次の展開段階に昇格できるかどうか、
+または保留する必要があるかどうかを判断できます。
+
+JMeter、LitmusChaos、Prometheusなどの多くの有名なサービスとの統合をすでに備えており、ユーザーは独自の統合を簡単に追加できる。
+```
+
+この後、Keptonについての導入方法が書かれている。
 
 #### [Identify, Evaluate and Benchmark Kubernetes Storage](https://www.kasten.io/press-releases/kubestr-open-source-kubernetes-solution)
+
 
 
 ### @bells17
