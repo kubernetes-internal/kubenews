@@ -1,4 +1,4 @@
-# 013
+# 014
 
 - Hosted by @bells17
 - Recording date: 2021-03-26
@@ -11,6 +11,13 @@
 ### @ryojsb
 
 #### [Quark Container](https://github.com/QuarkContainer/Quark)
+RUST製のOCI Runtime
+- OCI compatible
+- Secure
+- High Performance
+
+ゲストシステムコールを通じて、QuarkのKernelを使う。
+Host Kernelを使う場合は、QkernelからQcall + Host systemcall もしくは IO-Uring
 
 #### [Modern continuous delivery on Kubernetes for developers](https://dev.to/gabrieltanner/modern-continuous-delivery-on-kubernetes-for-developers-5chf)
 
