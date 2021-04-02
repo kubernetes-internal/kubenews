@@ -58,6 +58,9 @@ JMeter、LitmusChaos、Prometheusなどの多くの有名なサービスとの�
 
 ### @bells17
 
+#### [1ヶ月間仕事でOSSの開発をしてきた](https://blog.tako8ki.me/posts/cyberagent-oss-job/)
+
+#### [Postgres Operator](https://github.com/zalando/postgres-operator)
 
 ### @chago
 
