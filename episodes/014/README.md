@@ -52,7 +52,8 @@ JMeter、LitmusChaos、Prometheusなどの多くの有名なサービスとの�
 この後、Keptonについての導入方法が書かれている。
 
 #### [Identify, Evaluate and Benchmark Kubernetes Storage](https://www.kasten.io/press-releases/kubestr-open-source-kubernetes-solution)
-
+- kobaさん提供
+- [kubestr](https://kubestr.io/)について
 
 
 ### @bells17
