@@ -16,3 +16,4 @@
 ### @ryojsb
 #### [Awesome Kubernetes (K8s) Security](https://github.com/magnologan/awesome-k8s-security)
 
+#### [Pod Security Policy replacement](https://github.com/kubernetes/enhancements/issues/2579)
