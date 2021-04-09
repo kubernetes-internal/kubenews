@@ -22,6 +22,8 @@
 
 - https://groups.google.com/g/kubernetes-sig-release/c/VIc907IGaJU/m/Cc9wnXpXCgAJ
 
+#### [CNCFのkubestrのwebiner](https://youtu.be/N79NY_0aO0w)
+
 #### [cybozu-go/pod-security-admission](https://github.com/cybozu-go/pod-security-admission)
 
 ### @ryojsb
