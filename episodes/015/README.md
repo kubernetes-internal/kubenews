@@ -15,7 +15,9 @@
 
 #### [Kubernetes 1.21: Power to the Community](https://github.com/atoato88/k8s-release-memo/blob/master/v1.21.md)
 
--https://groups.google.com/g/kubernetes-sig-release/c/VIc907IGaJU/m/Cc9wnXpXCgAJ
+- https://groups.google.com/g/kubernetes-sig-release/c/VIc907IGaJU/m/Cc9wnXpXCgAJ
+
+#### [cybozu-go/pod-security-admission](https://github.com/cybozu-go/pod-security-admission)
 
 ### @ryojsb
 #### [Awesome Kubernetes (K8s) Security](https://github.com/magnologan/awesome-k8s-security)
