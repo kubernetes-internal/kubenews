@@ -9,6 +9,11 @@
 
 ### @bells17
 
+#### [Kubernetes Internal #7](https://www.youtube.com/watch?v=NrSmtWqJwD0)
+
+- 開催しました！
+- containerdの話
+
 #### [Strategic Merge Patch](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-api-machinery/strategic-merge-patch.md)
 
 - https://github.com/bells17/kustomize-demo
