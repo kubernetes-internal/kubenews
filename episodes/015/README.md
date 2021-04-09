@@ -11,6 +11,10 @@
 
 #### [Strategic Merge Patch](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-api-machinery/strategic-merge-patch.md)
 
+- https://github.com/bells17/kustomize-demo
+
+#### [Kubernetes 1.21: Power to the Community](https://github.com/atoato88/k8s-release-memo/blob/master/v1.21.md)
+
 ### @chago
 
 ### @ryojsb
