@@ -15,7 +15,7 @@
 
 #### [Kubernetes 1.21: Power to the Community](https://github.com/atoato88/k8s-release-memo/blob/master/v1.21.md)
 
-### @chago
+-https://groups.google.com/g/kubernetes-sig-release/c/VIc907IGaJU/m/Cc9wnXpXCgAJ
 
 ### @ryojsb
 #### [Awesome Kubernetes (K8s) Security](https://github.com/magnologan/awesome-k8s-security)
@@ -27,3 +27,5 @@
 #### [Pod Security Policy replacement](https://github.com/kubernetes/enhancements/issues/2579)
 
 #### [service-mesh-comparison](https://www.toptal.com/kubernetes/service-mesh-comparison)
+
+### @chago
