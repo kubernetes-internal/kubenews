@@ -21,3 +21,5 @@
 - [rakkess](https://github.com/corneliusweig/rakkess)
 
 #### [Pod Security Policy replacement](https://github.com/kubernetes/enhancements/issues/2579)
+
+#### [service-mesh-comparison](https://www.toptal.com/kubernetes/service-mesh-comparison)
