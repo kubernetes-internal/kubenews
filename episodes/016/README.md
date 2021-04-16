@@ -12,8 +12,9 @@
 #### [Comparing Helm vs Kustomize](https://harness.io/blog/devops/helm-vs-kustomize/)
 #### [Kubegres](https://www.kubegres.io/)
 - 10 April 2021: Release of Kubegres version 1.0
-- Operator でありPostgreSqlインスタンスのクラスタをデプロイ
+- OperatorでありPostgreSqlインスタンスのクラスタをデプロイ
 - https://github.com/reactive-tech/kubegres
+- 時間あったら get started 実演します
 
 ### @bells17
 
