@@ -13,6 +13,8 @@
 - Improve Kubernetes Deployments with Harness
 #### [Release v1.6.0 - rook/rook](https://github.com/rook/rook/releases/tag/v1.6.0)
 - Removed Storage Providers (CockroachDB / EdgeFS / YugabyteDB)
+#### [Certified Kubernetes Security (CKS) Specialist with Practice Tests](https://kodekloud.com/p/certified-kubernetes-security-specialist-cks)
+- @mochizuki875 さんから提供
 #### [Kubegres](https://www.kubegres.io/)
 - 10 April 2021: Release of Kubegres version 1.0
 - OperatorでありPostgreSqlインスタンスのクラスタをデプロイ
