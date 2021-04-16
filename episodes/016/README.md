@@ -10,6 +10,7 @@
 ### @chago
 
 #### [Comparing Helm vs Kustomize](https://harness.io/blog/devops/helm-vs-kustomize/)
+- Improve Kubernetes Deployments with Harness
 #### [Release v1.6.0 - rook/rook](https://github.com/rook/rook/releases/tag/v1.6.0)
 - Removed Storage Providers (CockroachDB / EdgeFS / YugabyteDB)
 #### [Kubegres](https://www.kubegres.io/)
