@@ -10,6 +10,8 @@
 ### @chago
 
 #### [Comparing Helm vs Kustomize](https://harness.io/blog/devops/helm-vs-kustomize/)
+#### [Release v1.6.0 - rook/rook](https://github.com/rook/rook/releases/tag/v1.6.0)
+- Removed Storage Providers (CockroachDB / EdgeFS / YugabyteDB)
 #### [Kubegres](https://www.kubegres.io/)
 - 10 April 2021: Release of Kubegres version 1.0
 - OperatorでありPostgreSqlインスタンスのクラスタをデプロイ
