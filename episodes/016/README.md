@@ -9,6 +9,8 @@
 
 ### @chago
 
+#### [Comparing Helm vs Kustomize](https://harness.io/blog/devops/helm-vs-kustomize/)
+
 ### @bells17
 
 ### @ryojsb
