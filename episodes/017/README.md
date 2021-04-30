@@ -24,3 +24,10 @@
 
 ### @bells17
 
+#### [DMP（Data Management Platform）開発を担当した際の所感](https://techblog.gmo-ap.jp/2021/04/28/minerva/)
+
+#### [[ANNOUNCE] Kubernetes is moving to three releases per year](https://groups.google.com/g/kubernetes-announce/c/is_pjOd5hho/m/afNTxmLlAAAJ)
+
+#### [Go design theory learned from Kubernetes](https://speakerdeck.com/onsd/go-design-theory-learned-from-kubernetes)
+
+#### [DevOps の能力](https://cloud.google.com/architecture/devops/capabilities?hl=ja)
