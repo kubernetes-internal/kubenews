@@ -9,6 +9,7 @@
 
 ### @chago
 
+#### [Understanding the VMware Tanzu Kubernetes Terminology](https://veducate.co.uk/tanzu-terminology/)
 
 ### @ryojsb
 
