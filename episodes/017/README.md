@@ -31,3 +31,5 @@
 #### [Go design theory learned from Kubernetes](https://speakerdeck.com/onsd/go-design-theory-learned-from-kubernetes)
 
 #### [DevOps の能力](https://cloud.google.com/architecture/devops/capabilities?hl=ja)
+
+#### [ユニコーン企業のひみつ/訳者あとがき](https://scrapbox.io/iki-iki/%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3%E4%BC%81%E6%A5%AD%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%2F%E8%A8%B3%E8%80%85%E3%81%82%E3%81%A8%E3%81%8C%E3%81%8D)
