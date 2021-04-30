@@ -1,8 +1,8 @@
 # 016
 
 - Hosted by @bells17
-- Recording date: 2021-04-16
-- Video:
+- Recording date: 2021-04-30
+- Video: https://youtu.be/h_cMug43Hk4
 - Guest: -
 
 ## Contents
