@@ -36,4 +36,4 @@
 
 ### @chago
 
-#### [Tools to develop apps on Kubernetes(https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes/)
+#### [Tools to develop apps on Kubernetes](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes/)
