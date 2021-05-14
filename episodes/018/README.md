@@ -152,12 +152,11 @@
   # curl -H "Content-Type: application/json" -X PUT --data-binary @delete.json http://127.0.0.1:8001/api/v1/namespaces/<ns>/finalize
   ```
 
-
-### @bells17
-
 ### @chago
 
 #### [Tools to develop apps on Kubernetes](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes/)
 #### [Explore HashiCorp Consul with Docker Compose](https://www.hashicorp.com/blog/explore-hashicorp-consul-with-docker-compose)
 
 p.s. kubernetes novice meetup #10 お疲れ様でした！！
+
+### @bells17
