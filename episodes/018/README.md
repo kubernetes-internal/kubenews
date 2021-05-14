@@ -32,6 +32,15 @@
     - Allow DaemonSets to surge during update like Deployments
       - DaemonSet に MaxSurge が導入 
 
+#### [Annotating Kubernetes Services for Humans](https://kubernetes.io/blog/2021/04/20/annotating-k8s-for-humans/?utm_medium=email&_hsmi=124457540&_hsenc=p2ANqtz-_eUQHxiNZCO_-Qm4dBkZot4mX5iIKyC8Wvv0zTZuzM3A4y7ed-gKGVThS9Lg_U88GHKfhSBqWLJNUZ7qNtFGkvzWXbng&utm_content=124457540&utm_source=hs_email)
+
+#### [Using Finalizers to Control Deletion](https://kubernetes.io/blog/2021/05/14/using-finalizers-to-control-deletion/)
+- kubectl delete
+  - kubectl delete でリソースの状態は、`live` から `collected` になる。
+- finallizer
+  - ファイナライザは、削除前の操作を通知するリソースのキー。
+  -  リソースのガベージ コレクションを制御し、リソースを削除する前に実行するクリーンアップ操作をコントローラに警告するように設計されてい
+
 ### @bells17
 
 ### @chago
