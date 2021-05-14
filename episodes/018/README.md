@@ -161,6 +161,8 @@ p.s. kubernetes novice meetup #10 お疲れ様でした！！
 
 ### @bells17
 
+#### [IDCフロンティア、マネージドコンテナサービス「IDCFクラウド コンテナ」を提供開始](https://www.idcf.jp/pressrelease/2021/20210513001.html)
+
 #### [役に立つプラットフォームを作ろう - プラットフォームエンジニアが知っておくべき『プロダクト』の考え方](https://speakerdeck.com/jacopen/yi-nili-tupuratutohuomuwozuo-rou)
 
 #### [トランスパイラ「Babel」の開発チーム、「何百万人にも使われているのに、なぜ私たちの資金は尽きようとしているのか？」。資金難により寄付を訴え](https://www.publickey1.jp/blog/21/babel.html)
