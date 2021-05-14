@@ -115,7 +115,7 @@
       }
   }
   ```
-  - spec.finalizersのListの中身を空にして、APIに渡すと強制的に消せる。
+  - spec.finalizersを消して、APIに渡すと強制的に消せる。
   ```
   # kubectl proxy &
   # curl -H "Content-Type: application/json" -X PUT --data-binary @delete.json http://127.0.0.1:8001/api/v1/namespaces/<ns>/finalize
