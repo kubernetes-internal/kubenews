@@ -39,4 +39,4 @@
 #### [Tools to develop apps on Kubernetes](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes/)
 #### [Explore HashiCorp Consul with Docker Compose](https://www.hashicorp.com/blog/explore-hashicorp-consul-with-docker-compose)
 
-ps kubernetes novice meetup #10 お疲れ様でした
+p.s. kubernetes novice meetup #10 お疲れ様でした！！
