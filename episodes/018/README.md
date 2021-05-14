@@ -37,9 +37,90 @@
 #### [Using Finalizers to Control Deletion](https://kubernetes.io/blog/2021/05/14/using-finalizers-to-control-deletion/)
 - kubectl delete
   - kubectl delete でリソースの状態は、`live` から `collected` になる。
-- finallizer
+- finalizer
   - ファイナライザは、削除前の操作を通知するリソースのキー。
-  -  リソースのガベージ コレクションを制御し、リソースを削除する前に実行するクリーンアップ操作をコントローラに警告するように設計されてい
+  - リソースのガベージ コレクションを制御し、リソースを削除する前に実行するクリーンアップ操作をコントローラに警告するように設計されている。
+  - finalizerを含ませたリソースを作成して削除しようとすると、消えない。
+    - Kubernetes がオブジェクトにファイナライザーが含まれていることを確認し、読み取り専用の状態にしたから。
+    ```
+    cat <<EOF | kubectl create -f -
+    apiVersion: v1
+    kind: ConfigMap
+    metadata:
+      name: mymap
+      finalizers:
+      - kubernetes
+    EOF
+    ```
+  - finalizerを含むリソースに関しては、kubectl delete でリソースの状態は、`live` から `finalizaiton` になり、finalizer keyを取り除くことで、`deletion` というステータスになる。
+  ```
+  kubectl patch configmap/mymap \
+    --type json \
+    --patch='[ { "op": "remove", "path": "/metadata/finalizers" } ]'
+  ```
+  - したがって、ファイナライザーを持つオブジェクトを削除しようとすると、コントローラがファイナライザーキーを削除するか、または Kubectl を使用してファイナライザーが削除されるまで、ファイナライズのままになります。ファイナライザーリストが空になると、オブジェクトは Kubernetes によって実際に再利用され、キューに入れ、レジストリから削除されます。
+- 所有者
+  - 親オブジェクトを最初に作成し、次に子オブジェクトを作成すると、子を消しても親は消えないが、親を消すと子も消える。
+  ```
+  cat <<EOF | kubectl create -f -
+  apiVersion: v1
+  kind: ConfigMap
+  metadata:
+    name: mymap-parent
+  EOF
+  CM_UID=$(kubectl get configmap mymap-parent -o jsonpath="{.metadata.uid}")
+
+  cat <<EOF | kubectl create -f -
+  apiVersion: v1
+  kind: ConfigMap
+  metadata:
+    name: mymap-child
+    ownerReferences:
+    - apiVersion: v1
+      kind: ConfigMap
+      name: mymap-parent
+      uid: $CM_UID
+  EOF
+  ```
+  - `--cascade=false` を渡してあげると、親を消しても子は消えない。
+  ```
+  kubectl delete --cascade=false configmap/mymap-parent
+  configmap "mymap-parent" deleted
+
+  kubectl get configmap
+  NAME          DATA   AGE
+  mymap-child   0      13m21s
+  ```
+- namespaceの強制終了
+  - namespaceを削除し、その下にあるすべてのオブジェクトを削除しても、その名前空間がまだ存在することがある。(Terminationの状態で残り続ける)
+  ```
+  # kubectl get ns test-ns -o json > delete.json
+  # vi delete.json
+  {
+      "apiVersion": "v1",
+      "kind": "Namespace",
+      "metadata": {
+          "annotations": {
+          ...
+          "name": "test-ns",
+          ...
+      },
+      "spec": {
+          "finalizers": [
+              "kubernetes"
+          ]
+      },
+      "status": {
+          "phase": "Terminating"
+      }
+  }
+  ```
+  - spec.finalizersのListの中身を空にして、APIに渡すと強制的に消せる。
+  ```
+  # kubectl proxy &
+  # curl -H "Content-Type: application/json" -X PUT --data-binary @delete.json http://127.0.0.1:8001/api/v1/namespaces/<ns>/finalize
+  ```
+
 
 ### @bells17
 
