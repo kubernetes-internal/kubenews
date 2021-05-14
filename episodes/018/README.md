@@ -33,6 +33,37 @@
       - DaemonSet に MaxSurge が導入 
 
 #### [Annotating Kubernetes Services for Humans](https://kubernetes.io/blog/2021/04/20/annotating-k8s-for-humans/?utm_medium=email&_hsmi=124457540&_hsenc=p2ANqtz-_eUQHxiNZCO_-Qm4dBkZot4mX5iIKyC8Wvv0zTZuzM3A4y7ed-gKGVThS9Lg_U88GHKfhSBqWLJNUZ7qNtFGkvzWXbng&utm_content=124457540&utm_source=hs_email)
+- ヒューマンサービスディスカバリー
+  - サービス検出の人間的な側面
+    - 特定のサービスを所有しているのは誰ですか？チームはどのSlackチャネルに取り組んでいますか？サービスのソースはどこにありますか？現在知られ、追跡されている問題は何ですか？
+  - ここに対してはあまり注意が払われない。
+- Kubernetesアノテーションは、この問題を正確に解決するように設計されている。
+  - 見積もりサービスと呼ばれる見積もり用のKubernetesサービスがあるとします。
+    - kubectl annotate service quote a8r.io/owner=”@sally”` をしてあげると、そのサービスのオーナーがすぐわかる。
+      ```
+      Name:              quote
+      Namespace:         default
+      Labels:            <none>
+      Annotations:       a8r.io/owner: @sally
+      Selector:          app=quote
+      Type:              ClusterIP
+      IP:                10.109.142.131
+      Port:              http  80/TCP
+      TargetPort:        8080/TCP
+      Endpoints:         <none>
+      Session Affinity:  None
+      Events:            <none>
+      ```
+- 注釈に共通の規則
+  - 注釈に共通の規則を採用することで、一貫性と理解性が保証される。
+- サービスカタログ
+  - describeする上での問題
+    - マイクロサービスとアノテーションの数が急増するにつれて、実行kubectl describeは面倒になる可能性がある。
+    - さらに、を使用kubectl describeするには、すべての開発者がKubernetesクラスターに直接アクセスできる必要があある。
+  - 以下の様なツールを使って可視化しよう。
+    - [Shopify's ServicesDB](https://shopify.engineering/scaling-mobile-development-by-treating-apps-as-services)
+    - [Spotify's System Z](https://dzone.com/articles/modeling-microservices-at-spotify-with-petter-mari)
+
 
 #### [Using Finalizers to Control Deletion](https://kubernetes.io/blog/2021/05/14/using-finalizers-to-control-deletion/)
 - kubectl delete
