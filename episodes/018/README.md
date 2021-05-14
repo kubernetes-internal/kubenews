@@ -53,11 +53,11 @@
     EOF
     ```
   - finalizerを含むリソースに関しては、kubectl delete でリソースの状態は、`live` から `finalizaiton` になり、finalizer keyを取り除くことで、`deletion` というステータスになる。
-  ```
-  kubectl patch configmap/mymap \
-    --type json \
-    --patch='[ { "op": "remove", "path": "/metadata/finalizers" } ]'
-  ```
+    ```
+    kubectl patch configmap/mymap \
+      --type json \
+      --patch='[ { "op": "remove", "path": "/metadata/finalizers" } ]'
+    ```
   - したがって、ファイナライザーを持つオブジェクトを削除しようとすると、コントローラがファイナライザーキーを削除するか、または Kubectl を使用してファイナライザーが削除されるまで、ファイナライズのままになります。ファイナライザーリストが空になると、オブジェクトは Kubernetes によって実際に再利用され、キューに入れ、レジストリから削除されます。
 - 所有者
   - 親オブジェクトを最初に作成し、次に子オブジェクトを作成すると、子を消しても親は消えないが、親を消すと子も消える。
