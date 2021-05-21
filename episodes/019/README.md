@@ -2,16 +2,17 @@
 
 - Hosted by @bells17
 - Recording date: 2021-05-14
-- Video: https://youtu.be/CVSaVvkiJ_U
-- Guest: -
+- Video: -
+- Guest: [Kazuto Kusama(jacopen)さん](https://twitter.com/jacopen)
 
 ## Contents
 
-### @chago
+### [chago](https://twitter.com/it__chago)
+欠席
 
-### @bells17
+### [bells17](https://twitter.com/bells17)
 
-### @ryojsb
+### [ry](https://twitter.com/URyo_0213)
 
 #### [PromCon Online 2021 highlights](https://sysdig.com/blog/promcon-online-2021/)
 
