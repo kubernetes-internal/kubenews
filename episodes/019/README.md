@@ -20,7 +20,7 @@ Kubernetes Internalの第8回目
 
 #### [KubeConの動画公開されたって](https://twitter.com/superbrothers/status/1393362911528034304?s=21)
 
-#### [Goバイナリの脆弱性検知][https://knqyf263.hatenablog.com/entry/2021/04/30/061147]
+#### [Goバイナリの脆弱性検知](https://knqyf263.hatenablog.com/entry/2021/04/30/061147)
 
 TrivyでGoバイナリの脆弱性検知も可能になったんだって
 すっごい！
