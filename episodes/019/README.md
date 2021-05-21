@@ -12,6 +12,15 @@
 
 ### [bells17](https://twitter.com/bells17_)
 
+#### [Kubernetes Internal #8](https://k8sinternal.connpass.com/event/212249/)
+
+Kubernetes Internalの第8回目
+2021/05/26(水) 19:00 〜 21:00
+から開催します！
+
+#### [KubeConの動画公開されたって](https://twitter.com/superbrothers/status/1393362911528034304?s=21)
+
+
 ### [ry](https://twitter.com/URyo_0213)
 
 #### [PromCon Online 2021 highlights](https://sysdig.com/blog/promcon-online-2021/)
