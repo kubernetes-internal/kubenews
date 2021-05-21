@@ -16,6 +16,10 @@
 
 #### [PromCon Online 2021 highlights](https://sysdig.com/blog/promcon-online-2021/)
 
+#### [Introducing an Operator for Cortex](https://opstrace.com/blog/introducing-a-cortex-operator/)
+- [cortex operator installation](https://github.com/opstrace/cortex-operator#installation)
+- 
+
 #### [vcluster](https://github.com/loft-sh/vcluster)
 - Kubernetes Cluster上で仮想的にclusterを作成するもの
 - [第17回](https://github.com/kubernetes-internal/kubenews/tree/main/episodes/017)でも少し話した。
