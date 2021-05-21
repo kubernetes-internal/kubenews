@@ -1,7 +1,7 @@
 # 019
 
 - Hosted by @bells17
-- Recording date: 2021-05-14
+- Recording date: 2021-05-21
 - Video: https://youtu.be/23HmP7dUCZk
 - Guest: [Kazuto Kusama(jacopen)さん](https://twitter.com/jacopen)
 
