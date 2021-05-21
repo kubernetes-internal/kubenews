@@ -20,6 +20,7 @@
 - [cortex operator installation](https://github.com/opstrace/cortex-operator#installation)
 - competitor
   - [thanos operator](https://github.com/banzaicloud/thanos-operator)
+    - [試してみた記事](https://qiita.com/kentakozuka/items/991c6733ccdfc61aaa36)
   - [Victoria Metrics operator](https://github.com/VictoriaMetrics/operator)
 
 #### [vcluster](https://github.com/loft-sh/vcluster)
