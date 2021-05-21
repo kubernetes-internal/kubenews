@@ -15,7 +15,9 @@
 #### [Kubernetes Internal #8](https://k8sinternal.connpass.com/event/212249/)
 
 Kubernetes Internalの第8回目
+
 2021/05/26(水) 19:00 〜 21:00
+
 から開催します！
 
 #### [KubeConの動画公開されたって](https://twitter.com/superbrothers/status/1393362911528034304?s=21)
@@ -23,6 +25,7 @@ Kubernetes Internalの第8回目
 #### [Goバイナリの脆弱性検知](https://knqyf263.hatenablog.com/entry/2021/04/30/061147)
 
 TrivyでGoバイナリの脆弱性検知も可能になったんだって
+
 すっごい！
 
 #### [経産省、特許庁のモデル契約書がMarkdownになったんだって](https://twitter.com/taisukef/status/1395625301258870789)
@@ -30,12 +33,15 @@ TrivyでGoバイナリの脆弱性検知も可能になったんだって
 #### [kcp](https://github.com/kcp-dev/kcp)
 
 PodとかKubernetesに標準で入ってるリソースがほとんど？入っていないKubernetes API Serverのプロダクトらしい
+
 Cluster APIみたいなOperator用のミニマム実装のプロダクトとのこと
+
 詳しくは今週のKubernetes Meetup Tokyoのすぱぶらさんセッションを見ると解説してくださってる
 
 #### [COISはオブジェクトストレージへの権限をk8s ServiceAccountに出せるような操作を一般化したかったのではないかとのこと](https://twitter.com/ymmt2005/status/1394987060906373122?s=20)
 
 おまけ
+
 https://twitter.com/bells17_/status/1394985995960004614?s=20
 
 ### [ry](https://twitter.com/URyo_0213)
