@@ -17,4 +17,5 @@
 
 #### [vcluster](https://github.com/loft-sh/vcluster)
 - Kubernetes Cluster上で仮想的にclusterを作成するもの
+- [第17回](https://github.com/kubernetes-internal/kubenews/tree/main/episodes/017)でも少し話した。
 - デモあり
