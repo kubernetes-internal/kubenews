@@ -18,7 +18,9 @@
 
 #### [Introducing an Operator for Cortex](https://opstrace.com/blog/introducing-a-cortex-operator/)
 - [cortex operator installation](https://github.com/opstrace/cortex-operator#installation)
-- 
+- competitor
+  - [thanos operator](https://github.com/banzaicloud/thanos-operator)
+  - [Victoria Metrics operator](https://github.com/VictoriaMetrics/operator)
 
 #### [vcluster](https://github.com/loft-sh/vcluster)
 - Kubernetes Cluster上で仮想的にclusterを作成するもの
