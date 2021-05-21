@@ -10,7 +10,7 @@
 ### [chago](https://twitter.com/it__chago)
 欠席
 
-### [bells17](https://twitter.com/bells17)
+### [bells17](https://twitter.com/bells17_)
 
 ### [ry](https://twitter.com/URyo_0213)
 
