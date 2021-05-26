@@ -22,6 +22,8 @@
   - MPA=HPA+VPA
 - [GKE リリース スケジュール](https://cloud.google.com/kubernetes-engine/docs/release-schedule?hl=ja)
 
+#### [kubectl-whisper-secret](https://github.com/rewanthtammana/kubectl-whisper-secret)
+
 ### [ry](https://twitter.com/URyo_0213)
 
 #### [Key Kubernetes Metrics and Resources to Monitor for Peak Cluster Performance](https://sematext.com/blog/kubernetes-metrics/?utm_medium=email&_hsmi=128701290&_hsenc=p2ANqtz-91bXgQsOeSbo3nChclJtFd9RA0u9SInJEu0Iu4L1Ccrzqq9gFq-FIBtWIa50vcLuBqQBY6d9KDNb-nRXugiph90v2ngQ&utm_content=128701290&utm_source=hs_email)
