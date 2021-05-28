@@ -46,6 +46,13 @@ https://youtu.be/4e3i3LbhhAY
 
 次回はバルゴさんから minikube についてお話していただく予定です！
 
+#### [Kubernetes Meetup Tokyo #42](https://k8sjp.connpass.com/event/214286/)
+
+次回は負荷試験系の話題！
+
+#### [Kubernetes Novice Tokyo #11](https://k8s-novice-jp.connpass.com/event/213756/)
+
+LT枠まだ空いてそうなので、皆さん是非応募してみてもらえると！
 
 #### [Add SupportsBlock method to provisionWrapper for being able to use block device](https://github.com/kubernetes-csi/external-provisioner/pull/635)
 
