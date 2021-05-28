@@ -3,9 +3,13 @@
 - Hosted by @bells17
 - Recording date: 2021-05-28
 - Video: https://youtu.be/zCF4Cif68_g
-- Guest: 
+- Guest: [@taisho6339](https://twitter.com/taisho6339)
 
 ## Contents
+
+### [@taisho6339](https://twitter.com/taisho6339)
+
+[最短で理解して運用するGrafana Loki](https://taisho6339.hatenablog.com/entry/2021/05/26/104449)
 
 ### [chago](https://twitter.com/it__chago)
 
