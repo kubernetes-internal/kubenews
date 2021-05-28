@@ -34,6 +34,14 @@
 
 ### [bells17](https://twitter.com/bells17_)
 
+#### [kubectl internal / Kubernetes Internal #8](https://www.slideshare.net/pfi/kubectl-internal-kubernetes-internal-8)
+
+今週水曜日にすぱぶらにKubernetes Internalでご登壇頂きました
+kubectl の実装やプラグインについてのあれやこれやに加えて、すぱぶらさんのk8sコントリビューター経験などについても色々教えていただいた会になってます
+配信動画はこちら
+https://youtu.be/4e3i3LbhhAY
+
+
 #### [Kubernetes Internal #9](https://k8sinternal.connpass.com/event/213280/)
 
 次回はバルゴさんから minikube についてお話していただく予定です！
