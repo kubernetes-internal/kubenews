@@ -33,3 +33,8 @@
 #### [AWS Secrets Manager on Kubernetes using AWS Secrets CSI driver Provider](https://particule.io/en/blog/aws-csi-secret-manager/?utm_medium=email&_hsmi=128701290&_hsenc=p2ANqtz-9dlcQxlFKG1ns4PygsHU76PDIVr8TtzD7kiWPgYLMoOtPXJbs6KNcvnp30jQoXmq6_DLldc95C3eo_X9SmF9VAZVFMDw&utm_content=128701290&utm_source=hs_email)
 
 ### [bells17](https://twitter.com/bells17_)
+
+#### [Kubernetes Internal #9](https://k8sinternal.connpass.com/event/213280/)
+
+次回はバルゴさんから minikube についてお話していただく予定です！
+ 
