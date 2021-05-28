@@ -68,4 +68,6 @@ ryさんおすすめのセッション教えて..
 今日やってたCAのイベントでの青山さんのセッションらしい
 あと、We are hiringとのことなので、興味ある方は是非
 
+#### [Istioによるサービスメッシュをどのようにプロダクションレディにするか](https://techblog.zozo.com/entry/zozotown-istio-production-ready)
 
+久々のIstio話しだ！
