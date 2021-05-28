@@ -58,3 +58,14 @@ https://github.com/kubernetes-csi/external-provisioner/pull/636
 
 #### [vclusterも！](https://twitter.com/ryusa_eng/status/1396093247789797381)
 
+#### [改めてKubeConの動画全部アップされたらしい](https://twitter.com/kubernetesio/status/1397897762776223745)
+
+ryさんおすすめのセッション教えて..
+視聴者のみんなもReCapで紹介されてたやつ以外に面白そうなやつ教えて欲しい
+
+#### ["Platform for Platform" with Kubernetes 〜 ML Platform and KaaS 〜](https://ca-base-next.cyberagent.co.jp/sessions/amsy810-k8s/)
+
+今日やってたCAのイベントでの青山さんのセッションらしい
+あと、We are hiringとのことなので、興味ある方は是非
+
+
