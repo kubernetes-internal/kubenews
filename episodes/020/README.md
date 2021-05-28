@@ -52,3 +52,9 @@ https://youtu.be/4e3i3LbhhAY
 ついでにこっちも
 https://github.com/kubernetes-csi/external-provisioner/pull/636
 
+#### [RyuSAさんがこの前novice tokyoのデモきっかけでkubebuilder試してくれた！](https://twitter.com/ryusa_eng/status/1397179247622463492)
+
+やったね！
+
+#### [vclusterも！](https://twitter.com/ryusa_eng/status/1396093247789797381)
+
