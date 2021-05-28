@@ -37,4 +37,10 @@
 #### [Kubernetes Internal #9](https://k8sinternal.connpass.com/event/213280/)
 
 次回はバルゴさんから minikube についてお話していただく予定です！
- 
+
+
+#### [Add SupportsBlock method to provisionWrapper for being able to use block device](https://github.com/kubernetes-csi/external-provisioner/pull/635)
+
+ついでにこっちも
+https://github.com/kubernetes-csi/external-provisioner/pull/636
+
