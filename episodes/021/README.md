@@ -40,7 +40,7 @@ jacopenさんもvclusterの話してる
 
 https://github.com/cncf/tag-app-delivery/blob/public-comment/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md
 
-####　 [GMOペパボのインフラ担当が感じた”Kubernetes”化の不安 ”GitOps”でアプリケーション稼働は快適になる](https://logmi.jp/tech/articles/324393)
+#### [GMOペパボのインフラ担当が感じた”Kubernetes”化の不安 ”GitOps”でアプリケーション稼働は快適になる](https://logmi.jp/tech/articles/324393)
 
 GMOペパポのKubernetes事例
 
