@@ -12,3 +12,5 @@
 ### [bells17](https://twitter.com/bells17_)
 
 ### [chago](https://twitter.com/it__chago)
+
+- [MOCO - Kubernetes 用 MySQL クラスタ運用ソフトウェア](https://blog.cybozu.io/entry/moco)
