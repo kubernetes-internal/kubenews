@@ -11,6 +11,14 @@
 
 ### [bells17](https://twitter.com/bells17_)
 
+#### [CI/CD Conference](https://link.medium.com/uMx3ZNaPKgb)
+
+9月開催らしい
+
+#### [OCHaCafe4 #3 CI/CD 最新事情](https://ochacafe.connpass.com/event/211934/)
+
+cyberblackさんがお話するらしい！
+
 #### [#Kubernetes 認定試験に試験シミュレーターへのアクセスが含まれるようになりました。](https://twitter.com/linux_fdtn_jp/status/1400647935705051140?s=21)
 
 - CKA
