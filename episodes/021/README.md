@@ -36,6 +36,14 @@ cyberblackさんがお話するらしい！
 
 https://github.com/cncf/tag-app-delivery/blob/public-comment/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md
 
+####　 [GMOペパボのインフラ担当が感じた”Kubernetes”化の不安 ”GitOps”でアプリケーション稼働は快適になる](https://logmi.jp/tech/articles/324393)
+
+GMOペパポのKubernetes事例
+
+#### [GKEのContainer native Cloud DNSが preview に](https://twitter.com/kazshinohara/status/1399204020388986884?s=21)
+
+kube-dnsを置き換えられるらしい
+
 ### [chago](https://twitter.com/it__chago)
 
 - [TeamTNT Targets Kubernetes, Nearly 50,000 IPs Compromised in Worm-like Attack](https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html)
