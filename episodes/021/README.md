@@ -32,6 +32,10 @@ cyberblackさんがお話するらしい！
 
 なんか色々すげぇ
 
+#### [vclusterでお手軽Kubernetesマルチテナント](https://speakerdeck.com/jacopen/vclusterdeoshou-qing-kubernetesmarutitenanto)
+
+jacopenさんもvclusterの話してる
+
 #### [Operatorの定義や設計のベストプラクティス](https://twitter.com/omichiki1/status/1400281852074594304?s=21)
 
 https://github.com/cncf/tag-app-delivery/blob/public-comment/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md
