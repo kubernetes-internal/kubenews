@@ -28,6 +28,10 @@ cyberblackさんがお話するらしい！
 で試験シミュレーターへのアクセスが可能になったらしい
 もうCKS買っちゃったんだけど、アクセス権あるのかな？
 
+#### [MOCO - Kubernetes 用 MySQL クラスタ運用ソフトウェア](https://blog.cybozu.io/entry/moco)
+
+なんか色々すげぇ
+
 #### [Operatorの定義や設計のベストプラクティス](https://twitter.com/omichiki1/status/1400281852074594304?s=21)
 
 https://github.com/cncf/tag-app-delivery/blob/public-comment/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md
