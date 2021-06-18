@@ -1,7 +1,7 @@
 # 023
 
 - Hosted by @bells17
-- Recording date: 2021-06-11
+- Recording date: 2021-06-18
 - Video: https://youtu.be/SorzeScSa0I
 - Guest: [@kitagry](https://twitter.com/kitagry), [@mochizuki875](https://twitter.com/mochizuki875)
 
