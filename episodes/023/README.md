@@ -20,7 +20,7 @@
 - Top 8 Kubernetes Security Best Practices
   - https://magalix.com/blog/top-8-kubernetes-security-best-practices?fbclid=IwAR1ZUpmtqBUGLOJKFN9cIZOM9vRTkxuC4SFHgHWsRj7SWx0BIkH-xY-WFUY
 
-### [@kitagry](https://twitter.com/kitagry)
+### [北川亮さん](https://twitter.com/kitagry)
 
 [入社一ヶ月でGKEのSecret管理基盤を作った話](https://www.m3tech.blog/entry/berglas-secret-controller)
 
