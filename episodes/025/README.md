@@ -1,4 +1,4 @@
-# 024
+# 025
 
 - Hosted by @bells17
 - Recording date: 2021-07-02
@@ -26,6 +26,8 @@ keyvernoがに関しては、以下を参照ください。
 #### [Run the HAProxy Kubernetes Ingress Controller Outside of Your Kubernetes Cluster](https://www.haproxy.com/blog/run-the-haproxy-kubernetes-ingress-controller-outside-of-your-kubernetes-cluster/?utm_medium=email&_hsmi=136268628&_hsenc=p2ANqtz-9HT5IOiCl6ZsXHnx30juwpMPq17EJ5U-uQkif-7d-ATXBi6mGdqlZl_doy-JexA5L3xfhHPaMb8EgmXbbwSM33FV3b0g&utm_content=136268628&utm_source=hs_email)
 
 #### [Handling Auth in EKS Clusters: Setting Up Kubernetes User Access Using AWS IAM](https://nextlinklabs.com/insights/handling-authentication-in-EKS-clusters-kubernetes-AWS-IAM?utm_medium=email&_hsmi=136268628&_hsenc=p2ANqtz-98auBpz71i9RKXibaaCZuPssqSLvFu5XsnRJaLz_V1BgpjUtGDXhweg5wb28sgAm_Y04kVkbwc6W0jXNHSeqvhAmACEg&utm_content=136268628&utm_source=hs_email)
+
+#### [What end-users want out of Prometheus remote storage: A comparison of M3 and Thanos](https://chronosphere.io/learn/what-end-users-want-out-of-prometheus-remote-storage-a-comparison-of-m3-and-thanos/?utm_campaign=kube-weekly&utm_medium=cncf&_hsmi=136268628&_hsenc=p2ANqtz--1ulP4sIeiU3tFwk1iw6XBnJh8bEoV_GiYDv4s-JVnYd042EyVmXAimvFPoYGOkW7cle0tzSdc4tj_1KHDH8HJdGVXxw&utm_source=newsletter)
 
 ### [chago](https://twitter.com/it__chago)
 
