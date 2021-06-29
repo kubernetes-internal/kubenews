@@ -17,6 +17,7 @@ keyvernoがに関しては、以下を参照ください。
 
 #### [cAdvisor and Kubernetes Monitoring Guide](https://www.cloudforecast.io/blog/cadvisor-and-kubernetes-monitoring-guide/?utm_medium=email&_hsmi=136268628&_hsenc=p2ANqtz-9kxHZC-21qKlC7vStJ7nZ56D0bpMNiCODTo08Ty8FqWAt05W12RedPi7ifoxxXzLOFH9WeIo4k7kJabFtiS57gMr_Vbg&utm_content=136268628&utm_source=hs_email)
 `Since cAdvisor is already integrated with the kubelet binary, ~~`とあり、kubeletに統合されています。
+
 (これを見るまで、docker用のものだと思ってました。)
 
 この記事では、cpu, memory, diskなどの項目に関するmetric名やGrafanaから確認する方法についてが書かれているので、とても参考になる資料となっています。
