@@ -80,3 +80,5 @@ keyvernoがに関しては、以下を参照ください。
 
 
 ### [bells17](https://twitter.com/bells17_)
+
+https://zenn.dev/bells17/articles/k8s-cloud-native-and-other-20210702
