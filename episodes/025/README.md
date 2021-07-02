@@ -23,6 +23,20 @@ keyvernoがに関しては、以下を参照ください。
 この記事では、cpu, memory, diskなどの項目に関するmetric名やGrafanaから確認する方法についてが書かれているので、とても参考になる資料となっています。
 
 #### [Avoiding Kubernetes Cluster Outages with Synthetic Monitoring](https://www.infracloud.io/blogs/avoiding-kubernetes-cluster-outages-synthetic-monitoring/?utm_medium=email&_hsmi=136268628&_hsenc=p2ANqtz-_aYVNSzzibfav2o22vVUAvukcg1dUvqw9o0EFcjlonLoltfr8Jdv51KLqd5bcrww_E8kStXOy4Q-2dIecm5dp8mhNMwA&utm_content=136268628&utm_source=hs_email)
+- [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)
+  - khcheck / khjob（Kuberhealthy check / Kuberhealthy job）と呼ばれるカスタムリソースによって作成されたテストコンテナーを用いる
+  - khjobが1回実行されるのに対し、khcheckは定期的に実行されることを除いて、両方のカスタムリソースの機能はほぼ同じ
+  - Kuberhealthy合成チェックのユースケース
+    - ネットワークの変更
+      - 実行する必要のある主要なネットワーク変更がある場合は、HTTPまたはTCP khchecksを使用して重要なエンドポイントをチェック
+    - IAMの変更
+      - 適切なKIAM機能を検証するためのKIAMチェックがある。
+    - エンドポイント接続
+      - データベースやKey-Valueストアなど、クラスター外の重要な要素が稼働しているかどうかを常に確認できる。
+    - AMI検証
+      - AMIチェックを変更して、NTP同期、ディレクトリ構造、ユーザーアクセスなど、カスタムベイクされたAMIの重要な機能を確認できる。
+    - CoreDNSチェック
+    - リソースクォータチェック
 
 #### [Run the HAProxy Kubernetes Ingress Controller Outside of Your Kubernetes Cluster](https://www.haproxy.com/blog/run-the-haproxy-kubernetes-ingress-controller-outside-of-your-kubernetes-cluster/?utm_medium=email&_hsmi=136268628&_hsenc=p2ANqtz-9HT5IOiCl6ZsXHnx30juwpMPq17EJ5U-uQkif-7d-ATXBi6mGdqlZl_doy-JexA5L3xfhHPaMb8EgmXbbwSM33FV3b0g&utm_content=136268628&utm_source=hs_email)
 
