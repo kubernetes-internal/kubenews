@@ -11,6 +11,8 @@
 
 ### [bells17](https://twitter.com/bells17_)
 
+https://zenn.dev/bells17/articles/k8s-cloud-native-and-other-20210709
+
 ### [ry](https://twitter.com/URyo_0213)
 
 #### [Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572)
