@@ -32,3 +32,5 @@ HAProxy Kubernetes Ingressコントローラのバージョン 1.5 以降では�
 Project Calicoを Kubernetes のネットワーク プラグインとしてインストールし、次に Calico が BGP ピアリングを介してIngressコントローラ サーバーとネットワーク ルートを共有できるようにすることで、この問題を解決することができます。
 
 #### [Handling Auth in EKS Clusters: Setting Up Kubernetes User Access Using AWS IAM](https://nextlinklabs.com/insights/handling-authentication-in-EKS-clusters-kubernetes-AWS-IAM?utm_medium=email&_hsmi=136268628&_hsenc=p2ANqtz-98auBpz71i9RKXibaaCZuPssqSLvFu5XsnRJaLz_V1BgpjUtGDXhweg5wb28sgAm_Y04kVkbwc6W0jXNHSeqvhAmACEg&utm_content=136268628&utm_source=hs_email)
+
+EKSクラスターでの認証の処理について
